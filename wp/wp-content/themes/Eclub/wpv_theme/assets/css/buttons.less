@@ -1,0 +1,147 @@
+/*
+ *  common style for submit buttons
+ */
+.submit-button-style {
+    padding-left: 1em;
+	padding-right: 1em;
+	border: 2px solid @accent-color-1;
+	border-radius: 0.2em;
+	background: transparent;
+	box-shadow: none;
+	font-style: normal;
+	color: @accent-color-1;
+
+	&:hover {
+		&, span {
+			border-color: @accent-color-1;
+			color: lighten(@accent-color-1, 90%) !important;
+			background: @accent-color-1;
+			transition: color .4s;
+		}
+	}
+}
+
+/*
+ *  common style for buttons a, button
+ *  set bg-color, font
+ */
+.button-style(@left-start: 50%, @right-start: 50%, @left-stop: 0.8em, @right-stop: 0.8em) {
+	background: @accent-color-2;
+	color:@accent-color-8;
+	.wpv-font(primary-font-);
+	text-transform: uppercase;
+
+	&:hover {
+		color:@accent-color-1;
+		text-decoration: none;
+	}
+}
+
+.button,
+.button.vamtam-button,
+input[type=button],
+input[type=submit] {
+	font-size: 12px;
+	font-weight: normal;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	z-index: 0;
+	vertical-align: baseline;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	.transition(all .1s);
+	font-family: @h4-face;
+}
+
+input[type=button],
+input[type=submit] {
+	.submit-button-style;
+	padding: 0.5em 1em;
+
+}
+
+.button,
+a.button,
+.button.vamtam-button {
+	padding: .5em .4em;
+	border: none;
+	font-weight: normal;
+	text-shadow: none;
+}
+
+.button,
+.button.vamtam-button,
+.slogan-content .button {
+	&.accent1 {.button-gen(@accent-color-1); }
+	&, &.accent2 { .button-gen(@accent-color-2); }
+	&.accent3 { .button-gen(@accent-color-3); }
+	&.accent4 { .button-gen(@accent-color-4); }
+	&.accent5 { .button-gen(@accent-color-5); }
+	&.accent6 { .button-gen(@accent-color-6); }
+	&.accent7 { .button-gen(@accent-color-7); }
+	&.accent8 { .button-gen(@accent-color-8); }
+
+	&, &.hover-accent1 {.button-gen-hover(@accent-color-1); }
+	&.hover-accent2 { .button-gen-hover(@accent-color-2); }
+	&.hover-accent3 { .button-gen-hover(@accent-color-3); }
+	&.hover-accent4 { .button-gen-hover(@accent-color-4); }
+	&.hover-accent5 { .button-gen-hover(@accent-color-5); }
+	&.hover-accent6 { .button-gen-hover(@accent-color-6); }
+	&.hover-accent7 { .button-gen-hover(@accent-color-7); }
+	&.hover-accent8 { .button-gen-hover(@accent-color-8); }
+}
+
+.button,
+.button.vamtam-button {
+	vertical-align: middle;
+
+	span {
+		display  : inline-block !important;
+		font-size: 1em;
+		line-height: 1.15;
+		padding  : 0 .4em !important;
+		margin   : 0 0;
+		vertical-align: baseline !important;
+
+		&.icon {
+			font-size: 100% !important;
+			line-height: inherit;
+			vertical-align: baseline !important;
+
+			&.shortcode.inverted-colors {
+				font-size: 100% !important;
+				box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 1px 1px rgba(255, 255, 255, 0.2);
+				text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+			}
+
+			&:first-child {
+				margin-right: 0 !important;
+			}
+
+			&:last-child {
+				margin-left : 0 !important;
+			}
+		}
+
+		&.btext {
+			font-weight: normal;
+			position: relative;
+		}
+	}
+
+	&.full {
+		width: auto;
+		float: none;
+		display: block;
+	}
+}
+
+.read-more-button.icon-a {
+	&:after {
+		padding-left: .5em;
+		font-size: 8px;
+	}
+}

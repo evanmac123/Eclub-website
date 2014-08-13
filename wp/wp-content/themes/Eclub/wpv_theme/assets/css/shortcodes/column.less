@@ -1,0 +1,119 @@
+.wpv-grid {
+	&.extended {
+		&.grid-1-1 {
+			body.full & {
+				margin-left: -2000px;
+				margin-right: -2000px;
+				padding-left: 2000px;
+				padding-right: 2000px;
+				.content-box();
+
+				> .extended-column-inner,
+				> .wpv-parallax-bg-content .extended-column-inner {
+					padding-left: @horizontal-padding/2;
+					padding-right: @horizontal-padding/2;
+				}
+			}
+
+			body.boxed & {
+				padding-left: @horizontal-padding-large;
+				padding-right: @horizontal-padding-large;
+				margin-left: -(@horizontal-padding-large - (@horizontal-padding/2));
+				margin-right: -(@horizontal-padding-large - (@horizontal-padding/2));
+				width: auto;
+				float: none;
+
+				&.no-extended-padding {
+					padding-left: @horizontal-padding/2;
+					padding-right: @horizontal-padding/2;
+				}
+			}
+
+			.loop-wrapper.news {
+				padding-top: @content-padding/2 !important;
+			}
+		}
+	}
+
+	&.has-background {
+		padding: 0 20px;
+
+		&, > .extended-column-inner {
+			> .column-title:first-child,
+			> .sep-text:first-child,
+			> style:first-child + .column-title,
+			> style:first-child + .sep-text {
+				padding-top: 0;
+			}
+		}
+	}
+
+	html.csstransitions &.animated-active {
+		opacity: 0;
+
+		&.animation-from-left {
+			.translateHardware(-80px, 0);
+		}
+
+		&.animation-from-right {
+			.translateHardware(80px, 0);
+		}
+
+		&.animation-zoom-in {
+			.transform(scale(0));
+		}
+	}
+
+	&.parallax-bg,
+	&.parallax-bg-suspended,
+	&.has-video-bg {
+		z-index: 0;
+	}
+
+	&.has-video-bg {
+		overflow: hidden;
+	}
+
+	&.parallax-bg,
+	&.has-video-bg {
+		opacity: 0;
+		transition: opacity .6s ease;
+
+		&.parallax-loaded,
+		&.parallax-bg-suspended,
+		&.video-bg-loaded {
+			opacity: 1;
+		}
+
+	}
+
+	&.parallax-bg-suspended > .wpv-parallax-bg-img {
+		background-attachment: scroll !important;
+	}
+}
+
+.wpv-parallax-bg-img,
+.wpv-video-bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.wpv-video-bg-content,
+.wpv-parallax-bg-content {
+	z-index: 0;
+}
+
+.wpv-background-video {
+	width: 100% !important;
+	height: auto !important;
+
+	.mejs-overlay-loading,
+	.mejs-overlay-play,
+	.mejs-controls {
+		display: none !important;
+	}
+}

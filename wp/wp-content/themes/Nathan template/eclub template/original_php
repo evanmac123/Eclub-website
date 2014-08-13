@@ -1,0 +1,239 @@
+
+
+
+
+
+
+
+
+
+HEADER HEADER HEADER
+
+
+  ?><!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><?php wp_title( '|', true, 'right' ); ?></title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
+
+
+<?php wp_head(); ?>
+</head>
+
+<body <?php body_class(); ?>>
+<div id="page" class="hfeed site">
+  <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'scout-base' ); ?></a>
+
+  <header id="masthead" class="site-header" role="banner">
+    <div class="site-branding">
+      <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+      <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+    </div>
+
+    <nav id="site-navigation" class="main-navigation" role="navigation">
+      <button class="menu-toggle"><?php _e( 'Primary Menu', 'scout-base' ); ?></button>
+      <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+    </nav><!-- #site-navigation -->
+  </header><!-- #masthead -->
+
+  <div id="content" class="site-content">
+
+
+
+
+
+
+
+
+FOOTER FOOTER FOOTER
+
+  </div><!-- #content -->
+
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="site-info">
+      <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'scout-base' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'scout-base' ), 'WordPress' ); ?></a>
+      <span class="sep"> | </span>
+      <?php printf( __( 'Theme: %1$s by %2$s.', 'scout-base' ), 'Scout-Base', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+    </div><!-- .site-info -->
+  </footer><!-- #colophon -->
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INDEX INDEX INDEX 
+
+
+get_header(); ?>
+
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+
+    <?php if ( have_posts() ) : ?>
+
+      <?php /* Start the Loop */ ?>
+      <?php while ( have_posts() ) : the_post(); ?>
+
+        <?php
+          /* Include the Post-Format-specific template for the content.
+           * If you want to override this in a child theme, then include a file
+           * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+           */
+          get_template_part( 'content', get_post_format() );
+        ?>
+
+      <?php endwhile; ?>
+
+      <?php scout_base_paging_nav(); ?>
+
+    <?php else : ?>
+
+      <?php get_template_part( 'content', 'none' ); ?>
+
+    <?php endif; ?>
+
+    </main><!-- #main -->
+  </div><!-- #primary -->
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       * The header for our theme.
+ *
+ * Displays all of the <head> section and everything up till <div id="content">
+ *
+ * @package Scout-Base
+ */
+?><!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+  <head>
+    <meta charset="utf-8">
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
+
+    <!-- Le styles -->
+    <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <?php wp_enqueue_script("jquery"); ?>
+    <?php wp_head(); ?>
+  </head>
+  <body>
+
+ <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+  <div class="container"> <!-- Closed in footer.php -->
+
+

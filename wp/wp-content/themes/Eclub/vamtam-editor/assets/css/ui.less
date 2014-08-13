@@ -1,0 +1,247 @@
+#wpv_visual_editor {
+
+	// helpers
+	.ui-helper-hidden { display: none; }
+	.ui-helper-hidden-accessible { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }
+	.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+	.ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+	.ui-helper-clearfix { display: inline-block; }
+	.ui-helper-clearfix { display:block; }
+	.ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+	// tabs
+	.ui-tabs {
+		position: relative;
+		zoom: 1;
+
+		.ui-tabs-nav {
+			margin: 0;
+			padding: 0;
+
+			li {
+				list-style: none;
+				float: left;
+				padding: 0;
+				white-space: nowrap;
+				overflow: hidden;
+				.transition(all .3s ease);
+
+				border-style: solid;
+				border-width: 1px;
+				text-shadow: white 0 1px 0;
+				display: inline-block;
+				padding: 4px 14px 6px;
+				text-decoration: none;
+				margin: 0 6px -1px 0;
+				border-radius: 3px 3px 0 0;
+
+				background: #FBFBFB;
+				border-color: #DFDFDF;
+
+				.tab-icon-selector {
+					float: left;
+					cursor: pointer;
+					color: #666;
+					font-size: 14px;
+					margin-left: .5em;
+					font-family: "vamtam-icomoon";
+					background: #fff;
+					border-radius: 2px;
+					padding: 3px;
+					width: 1em;
+					height: 1em;
+					line-height: 1;
+					text-align: center;
+
+					&.theme {
+						font-family: "vamtam-theme";
+					}
+
+					&.no-icon {
+						text-indent: -9999px;
+
+						&:before {
+							text-indent: 0;
+							content: icon(pencil);
+							display: block;
+							font-size: 11px;
+							line-height: 14px;
+						}
+					}
+				}
+
+				.tab-title {
+					float: left;
+					text-decoration: none;
+					cursor: pointer;
+					color: #AAA;
+					font-size: 14px;
+					line-height: 16px;
+					font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+
+					input {
+						margin: -.3em 0;
+					}
+				}
+
+				&.ui-tabs-active {
+					background: #F9F9F9;
+					border-bottom-color: #F9F9F9;
+					-webkit-box-shadow: inset 0 1px 0 white;
+					box-shadow: inset 0 1px 0 white;
+
+					.tab-title {
+						cursor: normal;
+						color: #464646;
+					}
+				}
+
+				&.ui-state-disabled,
+				&.ui-state-processing {
+					.tab-title {
+						cursor: normal;
+					}
+
+					.tab-remove,
+					.tab-clone {
+						display: none;
+					}
+				}
+
+				.tab-remove,
+				.tab-clone {
+					float: right;
+					cursor: pointer;
+					margin-left: .5em;
+					font-size: 10px;
+					color: #f66;
+
+					&:hover {
+						color: #f33;
+					}
+				}
+
+				.tab-clone {
+					color: #666;
+
+					&:hover {
+						color: #333;
+					}
+				}
+
+				.tab-add {
+					display: block;
+					text-decoration: none;
+					cursor: pointer;
+					color: #AAA;
+					font-size: 14px;
+					line-height: 16px;
+					text-shadow: white 0px 1px 0px;
+					position: relative;
+					top: 1px;
+
+					&:hover {
+						color: #d54e21;
+					}
+				}
+			}
+		}
+
+		.ui-tabs-panel {
+			display: block;
+			border: 1px solid #dfdfdf;
+			background: #f9f9f9;
+			padding: 5px;
+		}
+	}
+
+	.ui-accordion {
+		width:100%;
+
+		.ui-accordion-header{
+			cursor:pointer;
+			position:relative;
+			margin-top:1px;
+			font-family:inherit;
+			font-weight:inherit;
+			font-size:inherit;
+			zoom:1;
+
+			a {
+				padding: .5em 1em;
+				display: inline-block;
+				color: #aaa;
+			}
+
+			.accordion-remove,
+			.accordion-clone {
+				float: right;
+				cursor: pointer;
+				display: inline-block;
+				margin: .5em 1em .5em 0;
+				padding: 0;
+				font-size: 10px;
+				color: #f66;
+
+				&:hover {
+					color: #f33;
+				}
+			}
+
+			.accordion-clone {
+				color: #666;
+
+				&:hover {
+					color: #333;
+				}
+			}
+		}
+
+		.ui-accordion-header-active {
+			border-bottom:0 !important;
+
+			a {
+				color: #464646;
+			}
+		}
+		.ui-accordion-heading {
+			display:block;
+			padding:.5em .5em .5em .7em;
+		}
+		.ui-accordion-content {
+			padding: 5px;
+			border: 1px dotted #cdcdcd;
+			border-top:0;
+			margin-top:-2px;
+			position:relative;
+			top:1px;
+			margin-bottom:2px;
+			overflow:auto;
+			display:none;
+			zoom:1;
+			width: 100%;
+			.border-box();
+		}
+
+		.ui-accordion-content-active {
+			display: block;
+			min-height: 2em;
+		}
+
+		.accordion-add {
+			display: inline-block;
+			width: 100%;
+			font-weight: normal;
+			font-size: 14px;
+			margin: -7px -10px;
+			padding: 7px 0;
+			color: #444;
+			text-align: center;
+			cursor: pointer;
+
+			&:hover {
+				color: #d54e21;
+			}
+		}
+	}
+}
