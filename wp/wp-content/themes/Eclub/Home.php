@@ -21,6 +21,7 @@ endif;
 
 		<article id="post-<?php the_ID(); ?>" <?php post_class(WpvTemplates::get_layout()); ?>>
 			
+//Hello! Remember to remove me!
 //Start of content under slider
 			<div class="page-content">
 
