@@ -20,11 +20,11 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: #F37217;
+  background: #D14D42;
   z-index: 99999;
 }
 .wpv-splash-screen .wpv-splash-screen-logo {
-  background: url("http://localhost/wp/wp-content/uploads/2014/08/logo.jpg") center center no-repeat;
+  background: url("http://church-event.vamtam.com/wp-content/uploads/2014/02/Logo-trans@2x.png") center center no-repeat;
   position: absolute;
   top: 0;
   right: 0;
@@ -519,7 +519,7 @@ html.touch .fixed-header-box * {
 }
 .bx-wrapper .bx-loading {
   min-height: 50px;
-  background: url("http://localhost/wp/wp-content/themes/Eclub/wpv_theme/assets/images/bx_loader.gif") center center no-repeat #fff;
+  background: url("http://localhost/Eclub/wp/wp-content/themes/Eclub/wpv_theme/assets/images/bx_loader.gif") center center no-repeat #fff;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -552,8 +552,8 @@ html.touch .fixed-header-box * {
 }
 .bx-wrapper .bx-pager a:hover,
 .bx-wrapper .bx-pager a.active {
-  background: #F37217;
-  border-color: #F37217;
+  background: #D14D42;
+  border-color: #D14D42;
 }
 .bx-wrapper .bx-prev {
   left: 10px;
@@ -591,7 +591,7 @@ html.touch .fixed-header-box * {
   display: none;
 }
 .bx-wrapper .bx-controls-direction a:hover {
-  color: #F37217;
+  color: #D14D42;
   text-decoration: none;
 }
 .bx-wrapper .bx-controls-auto {
@@ -606,7 +606,7 @@ html.touch .fixed-header-box * {
   width: 10px;
   height: 11px;
   outline: 0;
-  background: url("http://localhost/wp/wp-content/themes/Eclub/wpv_theme/assets/images/controls.png") -86px -11px no-repeat;
+  background: url("http://localhost/Eclub/wp/wp-content/themes/Eclub/wpv_theme/assets/images/controls.png") -86px -11px no-repeat;
   margin: 0 3px;
 }
 .bx-wrapper .bx-controls-auto .bx-start:hover,
@@ -619,7 +619,7 @@ html.touch .fixed-header-box * {
   width: 9px;
   height: 11px;
   outline: 0;
-  background: url("http://localhost/wp/wp-content/themes/Eclub/wpv_theme/assets/images/controls.png") -86px -44px no-repeat;
+  background: url("http://localhost/Eclub/wp/wp-content/themes/Eclub/wpv_theme/assets/images/controls.png") -86px -44px no-repeat;
   margin: 0 3px;
 }
 .bx-wrapper .bx-controls-auto .bx-stop:hover,
@@ -754,7 +754,7 @@ body.full #header-slider-container {
   z-index: 2;
 }
 .header-slider-wrapper a {
-  color: #F7931E;
+  color: #D14D42;
 }
 .header-slider-wrapper a:hover {
   color: #4D4E53;
@@ -992,7 +992,7 @@ body.full #header-slider-container {
   text-shadow: none !important;
   left: 0;
   right: 0;
-  color: #F7931E;
+  color: #D14D42;
   filter: none !important;
   -ms-filter: none !important;
   padding: 10px 0 0 0;
@@ -1051,7 +1051,7 @@ div.ls-fullwidth .ls-nav-next {
 }
 div.ls-fullwidth .ls-nav-prev:hover,
 div.ls-fullwidth .ls-nav-next:hover {
-  color: #F37217;
+  color: #D14D42;
 }
 div.ls-fullwidth .ls-nav-prev:before,
 div.ls-fullwidth .ls-nav-next:before {
@@ -1533,7 +1533,7 @@ p {
   color: #898989;
 }
 .accent-1 {
-  color: #F37217 !important;
+  color: #D14D42 !important;
 }
 .accent-2 {
   color: #3E4043;
@@ -1559,11 +1559,11 @@ p {
 *,
 p,
 .main-container {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
 }
 .page-header .desc,
 em {
-  font: italic 14px/16px Open Sans;
+  font: italic 13px/18px Droid Sans;
   color: #898989;
 }
 h1,
@@ -1573,10 +1573,10 @@ h1 a:visited {
 }
 h1,
 h1 a {
-  font: bold 40px/60px Open Sans;
+  font: bold 40px/60px Raleway;
 }
 h1 em {
-  font: 40px/60px Open Sans;
+  font: 40px/60px Raleway;
   color: #4D4E53;
 }
 h2,
@@ -1586,10 +1586,10 @@ h2 a:visited {
 }
 h2,
 h2 a {
-  font: normal 26px/30px Open Sans;
+  font: normal 26px/30px Raleway;
 }
 h2 em {
-  font: 26px/30px Open Sans;
+  font: 26px/30px Raleway;
   color: #4D4E53;
 }
 h3,
@@ -1599,10 +1599,10 @@ h3 a:visited {
 }
 h3,
 h3 a {
-  font: normal 22px/26px Open Sans;
+  font: normal 22px/26px Raleway;
 }
 h3 em {
-  font: 22px/26px Open Sans;
+  font: 22px/26px Raleway;
   color: #4D4E53;
 }
 h4,
@@ -1612,10 +1612,10 @@ h4 a:visited {
 }
 h4,
 h4 a {
-  font: normal 18px/22px Open Sans;
+  font: normal 18px/22px Raleway;
 }
 h4 em {
-  font: 18px/22px Open Sans;
+  font: 18px/22px Raleway;
   color: #2B2B2B;
 }
 h5,
@@ -1625,10 +1625,10 @@ h5 a:visited {
 }
 h5,
 h5 a {
-  font: 300 12px/14px Open Sans;
+  font: 300 12px/14px Raleway;
 }
 h5 em {
-  font: 12px/14px Open Sans;
+  font: 12px/14px Raleway;
   color: #898989;
 }
 h6,
@@ -1650,7 +1650,7 @@ small {
 }
 a {
   text-decoration: none;
-  color: #F7931E;
+  color: #D14D42;
 }
 a:hover {
   text-decoration: none;
@@ -1728,7 +1728,7 @@ h6 {
   zoom: 1;
   text-align: center;
   margin-left: 6px;
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
 }
 .socialcount .sc-button {
   display: none;
@@ -2089,18 +2089,18 @@ h6 {
 .submit-button-style {
   padding-left: 1em;
   padding-right: 1em;
-  border: 2px solid #F37217;
+  border: 2px solid #D14D42;
   border-radius: 0.2em;
   background: transparent;
   box-shadow: none;
   font-style: normal;
-  color: #F37217;
+  color: #D14D42;
 }
 .submit-button-style:hover,
 .submit-button-style:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 .button,
@@ -2120,27 +2120,27 @@ input[type=submit] {
   user-select: none;
   -webkit-transition: all .1s;
   transition: all .1s;
-  font-family: "Open Sans";
+  font-family: "Raleway";
 }
 input[type=button],
 input[type=submit] {
   padding-left: 1em;
   padding-right: 1em;
-  border: 2px solid #F37217;
+  border: 2px solid #D14D42;
   border-radius: 0.2em;
   background: transparent;
   box-shadow: none;
   font-style: normal;
-  color: #F37217;
+  color: #D14D42;
   padding: 0.5em 1em;
 }
 input[type=button]:hover,
 input[type=button]:hover span,
 input[type=submit]:hover,
 input[type=submit]:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 .button,
@@ -2154,7 +2154,7 @@ a.button,
 .button.accent1,
 .button.vamtam-button.accent1,
 .slogan-content .button.accent1 {
-  background: #F37217;
+  background: #D14D42;
   text-decoration: none;
   vertical-align: middle;
   overflow: hidden;
@@ -2184,7 +2184,7 @@ a.button,
 .button.vamtam-button.accent1:active,
 .slogan-content .button.accent1:active {
   background-image: none;
-  background: #cc5b0b;
+  background: #b4362c;
   color: #ffffff !important;
 }
 .button.accent1.button-filled-small,
@@ -2200,7 +2200,7 @@ a.button,
 .slogan-content .button.accent1.button-border {
   padding-left: 1em;
   padding-right: 1em;
-  border: 2px solid #F37217;
+  border: 2px solid #D14D42;
   border-radius: 0.2em;
   background: transparent;
   box-shadow: none;
@@ -2209,7 +2209,7 @@ a.button,
 .button.accent1.button-border span,
 .button.vamtam-button.accent1.button-border span,
 .slogan-content .button.accent1.button-border span {
-  color: #F37217;
+  color: #D14D42;
   transition: color .3s ease;
 }
 .button,
@@ -2681,7 +2681,7 @@ a.button,
 .slogan-content .button.hover-accent1:hover,
 .slogan-content .button.hover-accent1:focus,
 .slogan-content .button.hover-accent1:active {
-  background: #F37217;
+  background: #D14D42;
 }
 .button:hover,
 .button:hover span,
@@ -2733,9 +2733,9 @@ a.button,
 .slogan-content .button.button-border:hover span,
 .slogan-content .button.hover-accent1.button-border:hover,
 .slogan-content .button.hover-accent1.button-border:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 .button.hover-accent2:hover,
@@ -3264,7 +3264,7 @@ a.button,
   margin-top: -3px;
 }
 .comments .comment-meta > .comment-author-link {
-  font: normal 18px/22px Open Sans;
+  font: normal 18px/22px Raleway;
 }
 .comments h6.comment-reply-link {
   position: absolute;
@@ -3276,7 +3276,7 @@ a.button,
 .comments h6.comment-reply-link a {
   margin: 0 0 0 5px;
   font-size: 10px;
-  color: #F7931E;
+  color: #D14D42;
 }
 .comments h6.comment-reply-link a:hover {
   color: #4D4E53;
@@ -3331,19 +3331,19 @@ a.button,
 #commentform #submit {
   padding-left: 1em;
   padding-right: 1em;
-  border: 2px solid #F37217;
+  border: 2px solid #D14D42;
   border-radius: 0.2em;
   background: transparent;
   box-shadow: none;
   font-style: normal;
-  color: #F37217;
+  color: #D14D42;
   position: relative;
 }
 #commentform #submit:hover,
 #commentform #submit:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 #commentform #submit:before {
@@ -3364,7 +3364,7 @@ a.button,
 }
 .respond-box .respond-box-title.sep-text .content {
   color: #9B9B9B;
-  font: 300 12px/14px Open Sans;
+  font: 300 12px/14px Raleway;
   font-size: 15px;
   padding: 0 1em;
   font-weight: bold;
@@ -3400,7 +3400,7 @@ h6.comment-reply-link,
 }
 .woocommerce .star-rating {
   float: none;
-  color: #F37217;
+  color: #D14D42;
   font-style: normal;
 }
 .woocommerce .star-rating:before {
@@ -3450,7 +3450,7 @@ h6.comment-reply-link,
   background-color: #EFEFEF;
 }
 .woocommerce .woocommerce-error {
-  background-color: rgba(243,114,23,0.4);
+  background-color: rgba(209,77,66,0.4);
   color: rgba(62,64,67,0.8);
   text-shadow: none;
 }
@@ -3497,7 +3497,7 @@ html.csstransforms .woocommerce ul.products li.product span.onsale:before {
   height: 0;
   border: 70px solid transparent;
   border-top: 0;
-  border-bottom-color: #F37217;
+  border-bottom-color: #D14D42;
   content: "";
 }
 .woocommerce ul.products {
@@ -3530,9 +3530,9 @@ html.touch .woocommerce ul.products li.product {
   margin-right: 0;
 }
 .woocommerce ul.products li.product .price {
-  font: normal 22px/26px Open Sans;
+  font: normal 22px/26px Raleway;
   margin-bottom: 0;
-  color: #F37217;
+  color: #D14D42;
 }
 .woocommerce ul.products li.product h3 {
   font-size: 22px;
@@ -3552,7 +3552,7 @@ html.touch .woocommerce ul.products li.product {
   box-shadow: none;
 }
 html.no-touch .woocommerce ul.products li.product a:hover img {
-  border-color: #F37217;
+  border-color: #D14D42;
   box-shadow: none !important;
 }
 .woocommerce ul.products li.product .aggregateRating {
@@ -3569,7 +3569,7 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
   margin-right: 10px;
   margin-bottom: 0;
   width: 7em;
-  color: #F37217;
+  color: #D14D42;
   letter-spacing: 5px;
   font-size: 14px;
 }
@@ -3593,7 +3593,7 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
   color: #3E4043;
 }
 .woocommerce ul.products li.product span.price span.from {
-  font: italic 14px/16px Open Sans;
+  font: italic 13px/18px Droid Sans;
   color: #898989;
 }
 .woocommerce ul.products div[itemprop="description"] {
@@ -3609,7 +3609,7 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
 }
 .woocommerce .related.products h2,
 .woocommerce .upsells.products h2 {
-  font: normal 26px/30px Open Sans;
+  font: normal 26px/30px Raleway;
   padding-bottom: 20px;
   color: #4D4E53;
   text-align: center;
@@ -3640,7 +3640,7 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
   margin-bottom: 30px;
 }
 .woocommerce div.product p.price span.from {
-  font: italic 14px/16px Open Sans;
+  font: italic 13px/18px Droid Sans;
   color: #898989;
 }
 .woocommerce div.product .woocommerce-tabs {
@@ -3678,7 +3678,7 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
   display: block;
   padding: 25px 16px;
   outline: none;
-  color: #F7931E;
+  color: #D14D42;
   line-height: 1;
   cursor: pointer;
   font-size: 15px;
@@ -3692,7 +3692,7 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
   text-decoration: none;
 }
 .woocommerce div.product .woocommerce-tabs > ul.tabs li a:hover .icon {
-  color: #F37217 !important;
+  color: #D14D42 !important;
 }
 .woocommerce div.product .woocommerce-tabs > ul.tabs li:first-child {
   margin-left: 10px;
@@ -3743,11 +3743,11 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
   color: #808080;
   padding-right: 1.6em;
   padding-left: 1.6em;
-  border: 2px solid #F37217;
+  border: 2px solid #D14D42;
   background: transparent;
   text-transform: uppercase;
   box-shadow: none;
-  color: #F37217;
+  color: #D14D42;
   font-style: normal;
   font-size: 15px;
 }
@@ -3787,7 +3787,7 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
 .woocommerce div.product form.cart > .single_add_to_cart_button:hover,
 .woocommerce div.product form.cart > .single_add_to_cart_button:focus,
 .woocommerce div.product form.cart > .single_add_to_cart_button:active {
-  background: #F37217;
+  background: #D14D42;
 }
 .woocommerce div.product form.cart > .single_add_to_cart_button:hover,
 .woocommerce div.product form.cart > .single_add_to_cart_button:hover span,
@@ -3799,14 +3799,14 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
 }
 .woocommerce div.product form.cart > .single_add_to_cart_button.button-border:hover,
 .woocommerce div.product form.cart > .single_add_to_cart_button.button-border:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 .woocommerce div.product form.cart > .single_add_to_cart_button:hover {
-  border-color: #F37217;
-  background: #F37217;
+  border-color: #D14D42;
+  background: #D14D42;
   color: #EFEFEF !important;
   transition: color .3s ease;
 }
@@ -3867,7 +3867,7 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
   line-height: 2.7em;
 }
 .woocommerce.woocommerce-checkout .amount {
-  color: #F37217;
+  color: #D14D42;
 }
 .woocommerce.woocommerce-checkout #place_order {
   background: #3E4043;
@@ -3917,7 +3917,7 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
 .woocommerce.woocommerce-checkout #place_order:hover,
 .woocommerce.woocommerce-checkout #place_order:focus,
 .woocommerce.woocommerce-checkout #place_order:active {
-  background: #F37217;
+  background: #D14D42;
 }
 .woocommerce.woocommerce-checkout #place_order:hover,
 .woocommerce.woocommerce-checkout #place_order:hover span,
@@ -3929,9 +3929,9 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
 }
 .woocommerce.woocommerce-checkout #place_order.button-border:hover,
 .woocommerce.woocommerce-checkout #place_order.button-border:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 .woocommerce.woocommerce-checkout input[name="apply_coupon"] {
@@ -4052,7 +4052,7 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
   margin-top: -3px;
 }
 .woocommerce #reviews #comments .comment-meta > .comment-author-link {
-  font: normal 18px/22px Open Sans;
+  font: normal 18px/22px Raleway;
 }
 .woocommerce #reviews #comments h6.comment-reply-link {
   position: absolute;
@@ -4064,7 +4064,7 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
 .woocommerce #reviews #comments h6.comment-reply-link a {
   margin: 0 0 0 5px;
   font-size: 10px;
-  color: #F7931E;
+  color: #D14D42;
 }
 .woocommerce #reviews #comments h6.comment-reply-link a:hover {
   color: #4D4E53;
@@ -4106,7 +4106,7 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
   font-size: 14px !important;
 }
 .woocommerce #reviews #comments ol.commentlist li .comment-meta div.star-rating span {
-  color: #F37217 !important;
+  color: #D14D42 !important;
   font-size: 14px !important;
 }
 .woocommerce #reviews #comments ol.commentlist li .comment-meta div.star-rating span:before {
@@ -4121,18 +4121,18 @@ html.no-touch .woocommerce ul.products li.product a:hover img {
 .woocommerce #commentform .form-submit input {
   padding-left: 1em;
   padding-right: 1em;
-  border: 2px solid #F37217;
+  border: 2px solid #D14D42;
   border-radius: 0.2em;
   background: transparent;
   box-shadow: none;
   font-style: normal;
-  color: #F37217;
+  color: #D14D42;
 }
 .woocommerce #commentform .form-submit input:hover,
 .woocommerce #commentform .form-submit input:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 .woocommerce .input-text {
@@ -4163,7 +4163,7 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 .woocommerce .summary .star-rating {
   margin: 13px 8px 15px 0;
   width: 7em;
-  color: #F37217;
+  color: #D14D42;
   letter-spacing: 5px;
   font-size: 14px;
 }
@@ -4189,14 +4189,14 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 .woocommerce .summary form.variations_form .single_add_to_cart_button {
   background: #3E4043;
   color: #EFEFEF;
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   text-transform: uppercase;
   border-radius: 0.2em;
   color: #9B9B9B;
   font-weight: normal;
 }
 .woocommerce .summary form.variations_form .single_add_to_cart_button:hover {
-  color: #F37217;
+  color: #D14D42;
   text-decoration: none;
 }
 .woocommerce .summary form.variations_form .single_add_to_cart_button:hover,
@@ -4219,19 +4219,19 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 }
 .woocommerce .summary .price .amount,
 .woocommerce .summary .price ins .amount {
-  font: normal 26px/30px Open Sans;
+  font: normal 26px/30px Raleway;
 }
 .woocommerce .summary .price del .amount {
-  font: 300 12px/14px Open Sans;
+  font: 300 12px/14px Raleway;
 }
 .woocommerce .price .amount,
 .woocommerce .price ins .amount {
-  font: normal 22px/26px Open Sans;
-  color: #F37217;
+  font: normal 22px/26px Raleway;
+  color: #D14D42;
   text-decoration: none !important;
 }
 .woocommerce .price del .amount {
-  font: 300 12px/14px Open Sans;
+  font: 300 12px/14px Raleway;
   color: #9B9B9B;
   text-decoration: line-through;
 }
@@ -4246,7 +4246,7 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
   line-height: 20px;
 }
 .woocommerce .product_meta a {
-  color: #F7931E;
+  color: #D14D42;
 }
 .woocommerce .product_meta a:hover {
   color: #4D4E53;
@@ -4268,13 +4268,13 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 .woocommerce.woocommerce-cart table.shop_table td > input[type="submit"] {
   padding-left: 1em;
   padding-right: 1em;
-  border: 2px solid #F37217;
+  border: 2px solid #D14D42;
   border-radius: 0.2em;
   background: transparent;
   box-shadow: none;
   font-style: normal;
-  color: #F37217;
-  font: normal 13px/20px Open Sans;
+  color: #D14D42;
+  font: normal 13px/20px Droid Sans;
   padding: .2em .8em;
   font-size: 14px;
 }
@@ -4282,9 +4282,9 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 .woocommerce.woocommerce-cart table.shop_table td div.coupon > input[type="submit"]:hover span,
 .woocommerce.woocommerce-cart table.shop_table td > input[type="submit"]:hover,
 .woocommerce.woocommerce-cart table.shop_table td > input[type="submit"]:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 .woocommerce.woocommerce-cart table.shop_table td div.coupon > input[type="submit"]:hover,
@@ -4293,7 +4293,7 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 .woocommerce.woocommerce-cart table.shop_table td > input[type="submit"]:hover,
 .woocommerce.woocommerce-cart table.shop_table td > input[type="submit"]:focus,
 .woocommerce.woocommerce-cart table.shop_table td > input[type="submit"]:active {
-  background: #F37217;
+  background: #D14D42;
 }
 .woocommerce.woocommerce-cart table.shop_table td div.coupon > input[type="submit"]:hover,
 .woocommerce.woocommerce-cart table.shop_table td div.coupon > input[type="submit"]:hover span,
@@ -4313,9 +4313,9 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 .woocommerce.woocommerce-cart table.shop_table td div.coupon > input[type="submit"].button-border:hover span,
 .woocommerce.woocommerce-cart table.shop_table td > input[type="submit"].button-border:hover,
 .woocommerce.woocommerce-cart table.shop_table td > input[type="submit"].button-border:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 .woocommerce.woocommerce-cart table.shop_table td div.coupon > input[type="submit"] {
@@ -4346,11 +4346,11 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 }
 .woocommerce.woocommerce-cart .cart_totals > h2,
 .woocommerce.woocommerce-cart .shipping_calculator > h2 {
-  font: normal 22px/26px Open Sans;
+  font: normal 22px/26px Raleway;
   padding-top: 60px;
 }
 .woocommerce.woocommerce-cart .shipping-calculator-button {
-  font: normal 22px/26px Open Sans;
+  font: normal 22px/26px Raleway;
 }
 .woocommerce.woocommerce-cart .shipping-calculator-button span {
   font-style: normal;
@@ -4364,21 +4364,21 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 .woocommerce .pp_content_container #respond #commentform .form-submit input[type="submit"] {
   padding-left: 1em;
   padding-right: 1em;
-  border: 2px solid #F37217;
+  border: 2px solid #D14D42;
   border-radius: 0.2em;
   background: transparent;
   box-shadow: none;
   font-style: normal;
-  color: #F37217;
+  color: #D14D42;
   border: none !important;
   box-shadow: none !important;
   text-shadow: none;
 }
 .woocommerce .pp_content_container #respond #commentform .form-submit input[type="submit"]:hover,
 .woocommerce .pp_content_container #respond #commentform .form-submit input[type="submit"]:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 .woocommerce .quantity {
@@ -4443,7 +4443,7 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 .woocommerce .add_review a.button:hover,
 .woocommerce .add_review a.button:focus,
 .woocommerce .add_review a.button:active {
-  background: #F37217;
+  background: #D14D42;
 }
 .woocommerce .add_review a.button:hover,
 .woocommerce .add_review a.button:hover span,
@@ -4455,18 +4455,18 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 }
 .woocommerce .add_review a.button.button-border:hover,
 .woocommerce .add_review a.button.button-border:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 .woocommerce ul.cart_list a {
-  font: 300 12px/14px Open Sans;
+  font: 300 12px/14px Raleway;
   font-size: 14px;
   padding: 5px 0 10px 0;
 }
 .woocommerce ul.product_list_widget li a {
-  font: 300 12px/14px Open Sans;
+  font: 300 12px/14px Raleway;
   padding: 5px 0 10px 0;
   font-size: 14px;
 }
@@ -4496,7 +4496,7 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
   box-shadow: none !important;
 }
 .woocommerce .woocommerce.widget_price_filter .price_slider_amount .button {
-  background: #F37217;
+  background: #D14D42;
   text-decoration: none;
   vertical-align: middle;
   overflow: hidden;
@@ -4523,7 +4523,7 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 }
 .woocommerce .woocommerce.widget_price_filter .price_slider_amount .button:active {
   background-image: none;
-  background: #cc5b0b;
+  background: #b4362c;
   color: #ffffff !important;
 }
 .woocommerce .woocommerce.widget_price_filter .price_slider_amount .button.button-filled-small {
@@ -4535,20 +4535,20 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 .woocommerce .woocommerce.widget_price_filter .price_slider_amount .button.button-border {
   padding-left: 1em;
   padding-right: 1em;
-  border: 2px solid #F37217;
+  border: 2px solid #D14D42;
   border-radius: 0.2em;
   background: transparent;
   box-shadow: none;
   font-style: normal;
 }
 .woocommerce .woocommerce.widget_price_filter .price_slider_amount .button.button-border span {
-  color: #F37217;
+  color: #D14D42;
   transition: color .3s ease;
 }
 .woocommerce .woocommerce.widget_price_filter .price_slider_amount .button:hover,
 .woocommerce .woocommerce.widget_price_filter .price_slider_amount .button:focus,
 .woocommerce .woocommerce.widget_price_filter .price_slider_amount .button:active {
-  background: #F37217;
+  background: #D14D42;
 }
 .woocommerce .woocommerce.widget_price_filter .price_slider_amount .button:hover,
 .woocommerce .woocommerce.widget_price_filter .price_slider_amount .button:hover span,
@@ -4560,9 +4560,9 @@ html.placeholder .woocommerce form .form-row label[for].checkbox {
 }
 .woocommerce .woocommerce.widget_price_filter .price_slider_amount .button.button-border:hover,
 .woocommerce .woocommerce.widget_price_filter .price_slider_amount .button.button-border:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 .woocommerce .woocommerce.widget_price_filter .price_label {
@@ -4613,7 +4613,7 @@ body.woocommerce-page .page-wrapper button.button,
   line-height: 1.4em;
   transition: color .3s ease, border .3s ease, background .3s ease;
   color: #707070;
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
 }
 body.woocommerce .page-wrapper #review_form #respond .form-submit input span,
 body.woocommerce .page-wrapper #submit span,
@@ -4821,7 +4821,7 @@ body.woocommerce-page .page-wrapper button.button:active,
 .page-wrapper .woocommerce button.button:hover,
 .page-wrapper .woocommerce button.button:focus,
 .page-wrapper .woocommerce button.button:active {
-  background: #F37217;
+  background: #D14D42;
 }
 body.woocommerce .page-wrapper #review_form #respond .form-submit input:hover,
 body.woocommerce .page-wrapper #review_form #respond .form-submit input:hover span,
@@ -4969,9 +4969,9 @@ body.woocommerce-page .page-wrapper button.button.button-border:hover span,
 .page-wrapper .woocommerce input[type=button].button-border:hover span,
 .page-wrapper .woocommerce button.button.button-border:hover,
 .page-wrapper .woocommerce button.button.button-border:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 body.post-type-archive-product ul.products,
@@ -4987,12 +4987,12 @@ body.tax-product_cat ul.products li.product {
   overflow: visible;
 }
 .widget_shopping_cart .widget_shopping_cart_content .amount {
-  color: #F37217;
+  color: #D14D42;
   font-size: 1.3em;
   font-weight: normal;
 }
 .widget_shopping_cart .widget_shopping_cart_content .total strong {
-  font: normal 18px/22px Open Sans;
+  font: normal 18px/22px Raleway;
 }
 .widget_shopping_cart .widget_shopping_cart_content p:last-child {
   margin-bottom: 0;
@@ -5048,7 +5048,7 @@ body.tax-product_cat ul.products li.product {
 .widget_shopping_cart .widget_shopping_cart_content .buttons a.button:hover,
 .widget_shopping_cart .widget_shopping_cart_content .buttons a.button:focus,
 .widget_shopping_cart .widget_shopping_cart_content .buttons a.button:active {
-  background: #F37217;
+  background: #D14D42;
 }
 .widget_shopping_cart .widget_shopping_cart_content .buttons a.button:hover,
 .widget_shopping_cart .widget_shopping_cart_content .buttons a.button:hover span,
@@ -5060,9 +5060,9 @@ body.tax-product_cat ul.products li.product {
 }
 .widget_shopping_cart .widget_shopping_cart_content .buttons a.button.button-border:hover,
 .widget_shopping_cart .widget_shopping_cart_content .buttons a.button.button-border:hover span {
-  border-color: #F37217;
+  border-color: #D14D42;
   color: #ffffff !important;
-  background: #F37217;
+  background: #D14D42;
   transition: color .4s;
 }
 .fixed-header-box .cart-dropdown {
@@ -5122,12 +5122,12 @@ body.tax-product_cat ul.products li.product {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #F37217;
+  background: #D14D42;
   color: #EFEFEF;
   text-align: center;
   font-style: normal;
   font-size: 10px;
-  font-family: "Open Sans";
+  font-family: "Droid Sans";
   line-height: 1;
 }
 .fixed-header-box .cart-dropdown .cart-dropdown-link .icon {
@@ -5242,7 +5242,7 @@ body.tax-product_cat ul.products li.product {
 }
 .scrollbar-horizontal .scrollbar-btn-left:hover div:after,
 .scrollbar-horizontal .scrollbar-btn-right:hover div:after {
-  color: #F37217;
+  color: #D14D42;
   opacity: 1;
 }
 .scrollbar-horizontal .scrollbar-btn-right {
@@ -5363,7 +5363,7 @@ html.touch body.fixed-layout.mfp-zoom-out-cur .fixed-header-box {
   text-align: center;
 }
 .ie8 .fixed-header-box .logo-wrapper {
-  height: 35px;
+  height: 26px;
 }
 .fixed-header-box .logo-wrapper .logo {
   text-decoration: none !important;
@@ -5402,7 +5402,7 @@ header.main-header {
 header.main-header .first-row {
   display: table;
   width: 100%;
-  height: 35px;
+  height: 26px;
 }
 header.main-header .second-row {
   background-repeat: repeat-x;
@@ -5480,7 +5480,7 @@ header.main-header button.header-search:active {
   transform: translate(0,3px);
 }
 header.main-header button.header-search:hover {
-  color: #F37217;
+  color: #D14D42;
 }
 header.main-header.layout-standard .logo {
   height: auto;
@@ -5505,7 +5505,7 @@ header.main-header.layout-logo-menu .first-row {
 }
 header.main-header.layout-logo-menu .first-row .logo-wrapper {
   display: block;
-  min-height: 84px;
+  min-height: 75px;
   position: relative;
   text-align: left;
 }
@@ -5557,7 +5557,7 @@ header.main-header.layout-logo-menu #phone-num {
 }
 header.main-header.layout-logo-text-menu .first-row > .first-row-wrapper {
   padding: 0 30px;
-  height: 35px;
+  height: 26px;
 }
 header.main-header.layout-logo-text-menu .first-row .first-row-right-inner {
   display: table;
@@ -5571,7 +5571,7 @@ header.main-header.layout-logo-text-menu .first-row .first-row-right {
 }
 header.main-header.layout-logo-text-menu .first-row .first-row-left,
 header.main-header.layout-logo-text-menu .first-row .first-row-right {
-  height: 35px;
+  height: 26px;
 }
 header.main-header.layout-logo-text-menu .first-row .first-row-right {
   width: 100%;
@@ -5833,7 +5833,7 @@ body.bosed .meta-header > .limit-wrapper {
 }
 .page-header .post-siblings a span.icon:hover {
   background: none;
-  color: #F37217;
+  color: #D14D42;
 }
 .page-header .post-siblings a[rel="prev"] span.icon,
 .page-header .post-siblings a[rel="next"] span.icon,
@@ -5916,7 +5916,7 @@ body.bosed .meta-header > .limit-wrapper {
   color: #ffffff;
 }
 #header-breadcrumbs a {
-  color: #F7931E;
+  color: #D14D42;
 }
 #header-breadcrumbs:after {
   content: "";
@@ -5941,7 +5941,7 @@ body.full-bg-slider #container {
 }
 ::selection {
   color: #ffffff;
-  background: #F37217;
+  background: #D14D42;
 }
 html {
   background-repeat: repeat;
@@ -6093,7 +6093,7 @@ body.no-header-sidebars.no-page-header .page-wrapper > .ajax-result {
 .page-wrapper > aside.right section.widget a,
 .page-wrapper > .ajax-result > aside.left section.widget a,
 .page-wrapper > .ajax-result > aside.right section.widget a {
-  color: #F7931E;
+  color: #D14D42;
 }
 .page-wrapper > aside.left section.widget a:hover,
 .page-wrapper > aside.right section.widget a:hover,
@@ -6344,11 +6344,11 @@ code {
   margin-bottom: 10px;
 }
 #bbpress-forums .bbp-forum-title {
-  font: normal 22px/26px Open Sans;
+  font: normal 22px/26px Raleway;
 }
 #bbpress-forums .bbp-forum-info .bbp-forum-content,
 #bbpress-forums p.bbp-topic-meta {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
 }
 #bbpress-forums .bbp-breadcrumb p {
   margin: 0;
@@ -6367,7 +6367,7 @@ code {
   font-size: 60px;
 }
 .mfp-arrow:hover {
-  color: #F37217;
+  color: #D14D42;
 }
 .mfp-close {
   color: #EFEFEF;
@@ -6399,7 +6399,7 @@ ol li {
   text-indent: 0;
 }
 .styled-list.icon-accent1 li:before {
-  color: #F37217;
+  color: #D14D42;
 }
 .styled-list.icon-accent2 li:before {
   color: #3E4043;
@@ -6482,7 +6482,7 @@ input[type=number]:focus,
 input[type=button]:focus,
 textarea:focus,
 select:focus {
-  border-color: #F37217;
+  border-color: #D14D42;
 }
 input[type=text].invalid,
 input[type=email].invalid,
@@ -6772,7 +6772,7 @@ article > .page-content > section.portfolios > .wp-pagenavi {
 }
 .wp-pagenavi .previouspostslink:after,
 .wp-pagenavi .nextpostslink:after {
-  color: #F7931E;
+  color: #D14D42;
   font-size: 11px;
   font-family: theme;
   left: -2px;
@@ -6791,12 +6791,12 @@ article > .page-content > section.portfolios > .wp-pagenavi {
 }
 .wp-pagenavi span.pages {
   float: left;
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   padding: 0 !important;
 }
 .wp-pagenavi a.page {
   background: #EFEFEF;
-  color: #F7931E;
+  color: #D14D42;
   font-size: 12px;
 }
 .wp-pagenavi a.page:hover {
@@ -6838,7 +6838,7 @@ article > .page-content > section.portfolios > .wp-pagenavi {
 }
 .comment-paging .prev:after,
 .comment-paging .next:after {
-  color: #F7931E;
+  color: #D14D42;
   font-size: 11px;
   font-family: theme;
   position: relative;
@@ -6858,12 +6858,12 @@ article > .page-content > section.portfolios > .wp-pagenavi {
 }
 .comment-paging span.pages {
   float: left;
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   padding: 0 !important;
 }
 .comment-paging a.page-numbers {
   background: #EFEFEF;
-  color: #F7931E;
+  color: #D14D42;
   font-size: 12px;
 }
 .comment-paging a.page-numbers:hover {
@@ -6896,16 +6896,16 @@ article > .page-content > section.portfolios > .wp-pagenavi {
   position: relative;
   z-index: 555;
   text-transform: uppercase;
-  font: bold 18px/1 "Open Sans";
+  font: bold 18px/1 "Raleway";
 }
 .load-more .button.lm-btn span:hover {
   text-decoration: none;
 }
 .load-more .button.lm-btn:hover {
-  border-color: #F37217;
+  border-color: #D14D42;
 }
 .load-more .button.lm-btn:hover span {
-  color: #F37217 !important;
+  color: #D14D42 !important;
 }
 .load-more + .share-btns {
   margin-top: 30px;
@@ -7301,8 +7301,8 @@ header.main-header.layout-standard .top-nav > .top-nav-inner > .row {
   cursor: pointer;
   outline: none !important;
   display: block;
-  font: normal 18px/22px Open Sans;
-  color: #F7931E;
+  font: normal 18px/22px Raleway;
+  color: #D14D42;
 }
 .accordion .tab .inner:hover {
   text-decoration: none;
@@ -7335,19 +7335,19 @@ blockquote {
   overflow: hidden;
   margin: 30px 0;
   padding-left: 20px;
-  border-left: 5px solid #F37217;
+  border-left: 5px solid #D14D42;
   text-align: left;
 }
 blockquote a,
 blockquote p,
 blockquote {
-  font: normal 22px/26px Open Sans;
+  font: normal 22px/26px Raleway;
   margin-bottom: 0;
 }
 blockquote.small a,
 blockquote.small p,
 blockquote.small {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   margin-bottom: 0;
 }
 blockquote.simple {
@@ -7373,10 +7373,10 @@ blockquote.simple > .quote-thumbnail img {
   border-radius: 50%;
 }
 blockquote.simple > .quote-thumbnail:after {
-  content: url("http://localhost/wp/wp-content/themes/Eclub/wpv_theme/assets/images/ornament-lines.svg");
+  content: url("http://localhost/Eclub/wp/wp-content/themes/Eclub/wpv_theme/assets/images/ornament-lines.svg");
 }
 blockquote.simple .quote-title {
-  font: normal 18px/22px Open Sans;
+  font: normal 18px/22px Raleway;
   display: block;
   padding: 15px 0;
 }
@@ -7389,7 +7389,7 @@ blockquote.simple .quote-title .the-title {
   padding-right: 3px;
 }
 blockquote.simple .quote-text {
-  font: normal 22px/26px Open Sans;
+  font: normal 22px/26px Raleway;
   overflow: hidden;
 }
 blockquote.simple .quote-text .quote-content {
@@ -7402,7 +7402,7 @@ blockquote cite {
 blockquote cite,
 blockquote cite a {
   font: normal 11px/12px Droid Sans;
-  color: #F7931E;
+  color: #D14D42;
 }
 blockquote cite a {
   vertical-align: middle;
@@ -7663,11 +7663,11 @@ html.csstransitions .wpv-grid.animated-active.animation-zoom-in {
   text-align: center;
   vertical-align: middle;
   width: 2ex;
-  font-family: "Open Sans";
-  color: #F37217;
+  font-family: "Raleway";
+  color: #D14D42;
 }
 .dropcap2.accent1 {
-  color: #F37217;
+  color: #D14D42;
 }
 .dropcap2.accent2 {
   color: #3E4043;
@@ -7697,12 +7697,12 @@ html.csstransitions .wpv-grid.animated-active.animation-zoom-in {
   text-align: center;
   vertical-align: middle;
   width: 1em;
-  font-family: "Open Sans";
+  font-family: "Raleway";
   color: #3E4043;
-  border: 3px solid #F37217;
+  border: 3px solid #D14D42;
 }
 .wpv-countdown.single-event {
-  font: normal 18px/22px Open Sans;
+  font: normal 18px/22px Raleway;
   display: inline-block;
   margin: 2px 15px 2px 0;
   padding-right: 15px;
@@ -7839,10 +7839,10 @@ html.csstransitions .wpv-grid.animated-active.animation-zoom-in {
   color: #3E4043;
 }
 .classic-event-wrapper .title a {
-  color: #F37217;
+  color: #D14D42;
 }
 .classic-event-wrapper .event-title a {
-  color: #F37217;
+  color: #D14D42;
   margin-top: 0;
 }
 .classic-event-wrapper .view-all-wrapper,
@@ -7865,7 +7865,7 @@ html.csstransitions .wpv-grid.animated-active.animation-zoom-in {
   position: relative;
   width: 114px;
   height: 114px;
-  background: url("http://localhost/wp/wp-content/themes/Eclub/wpv_theme/assets/images/date-bg.svg");
+  background: url("http://localhost/Eclub/wp/wp-content/themes/Eclub/wpv_theme/assets/images/date-bg.svg");
   text-align: center;
 }
 .wpv-tribe-multiple-events .event-wrapper .date .day,
@@ -7874,7 +7874,7 @@ html.csstransitions .wpv-grid.animated-active.animation-zoom-in {
 .tribe-events-event-meta .date .month,
 .wpv-single-event-schedule-block.date-time .date .day,
 .wpv-single-event-schedule-block.date-time .date .month {
-  font: normal 18px/22px Open Sans;
+  font: normal 18px/22px Raleway;
   position: absolute;
   right: 0;
   left: 0;
@@ -7908,7 +7908,7 @@ html.csstransitions .wpv-grid.animated-active.animation-zoom-in {
 .wpv-tribe-multiple-events .event-wrapper .when-where a:hover,
 .tribe-events-event-meta .when-where a:hover,
 .wpv-single-event-schedule-block.date-time .when-where a:hover {
-  color: #F37217;
+  color: #D14D42;
 }
 .wpv-tribe-multiple-events .event-wrapper .button,
 .tribe-events-event-meta .button,
@@ -7934,10 +7934,10 @@ html.csstransitions .wpv-grid.animated-active.animation-zoom-in {
   background: rgba(0,0,0,0.15);
 }
 .wpv-tribe-multiple-events.style-dark .date {
-  background: url("http://localhost/wp/wp-content/themes/Eclub/wpv_theme/assets/images/date-bg-dark.svg");
+  background: url("http://localhost/Eclub/wp/wp-content/themes/Eclub/wpv_theme/assets/images/date-bg-dark.svg");
 }
 .wpv-tribe-multiple-events.style-dark .when-where a {
-  color: #F7931E;
+  color: #D14D42;
 }
 .wpv-tribe-multiple-events.style-dark .when-where a:hover {
   color: #4D4E53;
@@ -7990,7 +7990,7 @@ html.csstransitions .wpv-grid.animated-active.animation-zoom-in {
   width: auto;
 }
 #tribe-bar-form .second-row #tribe-bar-views label {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   display: inline-block;
   color: #898989;
   font-weight: bold;
@@ -8085,8 +8085,8 @@ html.csstransitions .wpv-grid.animated-active.animation-zoom-in {
 }
 .tribe-events-list-separator-month span {
   background: none;
-  color: #F37217;
-  font: normal 50px/50px "Open Sans";
+  color: #D14D42;
+  font: normal 50px/50px "Raleway";
 }
 .tribe-events-list-separator-year {
   display: none;
@@ -8262,18 +8262,18 @@ a.tribe-events-ical,
 .single-tribe_events a.tribe-events-ical,
 a.tribe-events-gcal,
 .single-tribe_events a.tribe-events-gcal {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   background: none;
-  color: #F37217;
+  color: #D14D42;
   text-transform: none;
 }
 a.tribe-events-ical:hover,
 .single-tribe_events a.tribe-events-ical:hover,
 a.tribe-events-gcal:hover,
 .single-tribe_events a.tribe-events-gcal:hover {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   background: none;
-  color: #F37217;
+  color: #D14D42;
 }
 .tribe-events-sub-nav > ul {
   float: right;
@@ -8286,9 +8286,9 @@ a.tribe-events-gcal:hover,
 .tribe-grid-allday .hentry.vevent > div:hover,
 .tribe-grid-body div[id*="tribe-events-event-"] .hentry.vevent,
 .tribe-grid-body div[id*="tribe-events-event-"] .hentry.vevent:hover {
-  border-color: #e5660c;
-  background: #F37217;
-  background: rgba(243,114,23,0.9);
+  border-color: #c93d31;
+  background: #D14D42;
+  background: rgba(209,77,66,0.9);
 }
 .tribe-grid-allday .hentry.vevent > div a,
 .tribe-grid-allday .hentry.vevent > div:hover a,
@@ -8298,11 +8298,11 @@ a.tribe-events-gcal:hover,
 }
 #tribe-events-content .tribe-events-tooltip h4,
 #tribe_events_filters_wrapper .tribe_events_slider_val {
-  font: normal 18px/22px Open Sans;
-  color: #F37217;
+  font: normal 18px/22px Raleway;
+  color: #D14D42;
 }
 .tribe-events-calendar thead th {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   color: #f3f3f3;
   border-color: #D4D4D4;
   background: #3E4043;
@@ -8312,7 +8312,7 @@ a.tribe-events-gcal:hover,
 .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"],
 .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"] > a {
   color: #ffffff;
-  background: #F37217;
+  background: #D14D42;
 }
 #tribe-events-content {
   overflow: visible;
@@ -8322,12 +8322,12 @@ a.tribe-events-gcal:hover,
 }
 #tribe-events-content .tribe-events-calendar div[id*="tribe-events-event-"] h3.tribe-events-month-event-title,
 #tribe-events-content .tribe-events-calendar div[id*="tribe-events-event-"] h3.tribe-events-month-event-title a {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   color: #898989;
 }
 #tribe-events-content .tribe-events-calendar div[id*="tribe-events-daynum-"],
 #tribe-events-content .tribe-events-calendar div[id*="tribe-events-daynum-"] a {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   font-weight: bold;
 }
 #tribe-events-content .tribe-events-calendar .tribe-events-future.tribe-events-has-events div[id*="tribe-events-daynum-"],
@@ -8391,7 +8391,7 @@ a.tribe-events-gcal:hover,
   background-size: cover;
 }
 .wpv-tribe-single-media.no-image {
-  background-color: #F37217;
+  background-color: #D14D42;
 }
 .bad-ios .wpv-tribe-single-media {
   background-attachment: scroll;
@@ -8416,14 +8416,14 @@ a.tribe-events-gcal:hover,
 .wpv-tribe-single-media .wpv-single-event-schedule .wpv-single-event-schedule-block.cost .icon {
   position: relative;
   top: -3px;
-  color: #F37217;
+  color: #D14D42;
 }
 .wpv-tribe-single-media .wpv-single-event-schedule .wpv-single-event-schedule-block.date-time .date {
   margin: auto;
-  background: url("http://localhost/wp/wp-content/themes/Eclub/wpv_theme/assets/images/date-bg-dark.svg");
+  background: url("http://localhost/Eclub/wp/wp-content/themes/Eclub/wpv_theme/assets/images/date-bg-dark.svg");
 }
 .wpv-tribe-single-media .wpv-single-event-schedule .wpv-single-event-schedule-block.date-time .time {
-  color: #F37217;
+  color: #D14D42;
   font-weight: bold;
   line-height: 2;
 }
@@ -8479,7 +8479,7 @@ aside.right h4.entry-title.summary,
 aside.right h4.entry-title.summary a,
 aside.right .tribe-countdown-text,
 aside.right .tribe-countdown-text a {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   font-size: 14px;
 }
 aside.left .tribe-countdown-text,
@@ -8488,7 +8488,7 @@ aside.right .tribe-countdown-text {
 }
 aside.left .tribe-venue-widget-venue-name a,
 aside.right .tribe-venue-widget-venue-name a {
-  font: normal 18px/22px Open Sans;
+  font: normal 18px/22px Raleway;
 }
 aside.left .tribe-mini-calendar .tribe-events-has-events,
 aside.left .tribe-mini-calendar .list-date,
@@ -8511,7 +8511,7 @@ aside.right .tribe-mini-calendar .list-date a:before {
 }
 aside.left .tribe-mini-calendar .tribe-events-has-events:hover a:hover,
 aside.right .tribe-mini-calendar .tribe-events-has-events:hover a:hover {
-  background: #F37217;
+  background: #D14D42;
   color: #ffffff;
 }
 aside.left .tribe-mini-calendar thead,
@@ -8556,7 +8556,7 @@ aside.left .tribe-mini-calendar td.tribe-events-has-events.tribe-events-present,
 aside.left .tribe-mini-calendar td.tribe-events-has-events.tribe-mini-calendar-today,
 aside.right .tribe-mini-calendar td.tribe-events-has-events.tribe-events-present,
 aside.right .tribe-mini-calendar td.tribe-events-has-events.tribe-mini-calendar-today {
-  background: #F37217;
+  background: #D14D42;
 }
 aside.left .tribe-mini-calendar-event,
 aside.right .tribe-mini-calendar-event {
@@ -8572,7 +8572,7 @@ aside.left .tribe-mini-calendar-event h2,
 aside.left .tribe-mini-calendar-event h2 a,
 aside.right .tribe-mini-calendar-event h2,
 aside.right .tribe-mini-calendar-event h2 a {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   font-size: 14px;
 }
 aside.left .tribe-events-adv-list-widget ol li,
@@ -8597,7 +8597,7 @@ aside.left .tribe-venue-widget-list h4,
 aside.left .tribe-venue-widget-list h4 a,
 aside.right .tribe-venue-widget-list h4,
 aside.right .tribe-venue-widget-list h4 a {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   font-size: 14px;
 }
 .tribe-events-countdown-widget:after {
@@ -8822,7 +8822,7 @@ table.tribe-events-tickets td.tickets_name {
   transition: all .5s;
 }
 .linkarea.background-accent1 {
-  background-color: #F37217;
+  background-color: #D14D42;
 }
 .linkarea.background-accent2 {
   background-color: #3E4043;
@@ -8847,21 +8847,21 @@ table.tribe-events-tickets td.tickets_name {
 }
 .linkarea.accent1.background-transparent {
   background-color: transparent;
-  background-color: rgba(243,114,23,0);
+  background-color: rgba(209,77,66,0);
 }
 .linkarea.accent1:hover,
 .linkarea.accent1:focus {
-  background-color: #F37217;
+  background-color: #D14D42;
 }
 .linkarea.accent1:hover a,
 .linkarea.accent1:focus a {
   text-decoration: none;
 }
 .linkarea.accent1:active {
-  background-color: #e5660c;
+  background-color: #c93d31;
 }
 .linkarea.accent1:focus {
-  border: 1px solid #b45009;
+  border: 1px solid #a03027;
   outline: none;
 }
 .linkarea.accent2.background-transparent {
@@ -9009,8 +9009,8 @@ table.tribe-events-tickets td.tickets_name {
   padding-bottom: 0;
 }
 .linkarea h4 {
-  color: #F7931E;
-  font-family: "Open Sans";
+  color: #D14D42;
+  font-family: "Droid Sans";
   font-size: 15.6px;
   line-height: 1.2em;
   font-weight: "normal";
@@ -9090,7 +9090,7 @@ table.tribe-events-tickets td.tickets_name {
 }
 .loop-wrapper.news .post-article .post-content-outer,
 .loop-wrapper.news .post-article .post-content-outer p {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
 }
 .loop-wrapper.news .thumbnail {
   width: 100%;
@@ -9246,7 +9246,7 @@ table.tribe-events-tickets td.tickets_name {
   display: inline-block;
   vertical-align: top;
   font-size: 60px;
-  font-family: "Open Sans";
+  font-family: "Raleway";
   line-height: 38px;
 }
 .price-wrapper .value-box .meta {
@@ -9255,10 +9255,10 @@ table.tribe-events-tickets td.tickets_name {
   color: #EFEFEF;
   text-transform: uppercase;
   font-size: 11px;
-  font-family: "Open Sans";
+  font-family: "Raleway";
   line-height: 1em;
   height: 1em;
-  background: #F37217;
+  background: #D14D42;
   border-radius: 1.8em;
   padding: 0.4em 0.6em;
 }
@@ -9271,7 +9271,7 @@ table.tribe-events-tickets td.tickets_name {
   font-weight: normal;
 }
 .price-wrapper.featured .value-box {
-  background: #F37217;
+  background: #D14D42;
   position: relative;
 }
 .price-wrapper.featured .value-box .meta {
@@ -9341,8 +9341,8 @@ table.tribe-events-tickets td.tickets_name {
 }
 .wpv-sermon-wrapper .left-part img {
   min-width: 106px;
-  -webkit-mask-image: url("http://localhost/wp/wp-content/themes/Eclub/wpv_theme/assets/images/avatar-mask.svg");
-  mask: url("http://localhost/wp/wp-content/themes/Eclub/wpv_theme/assets/images/avatar-mask.svg#mask");
+  -webkit-mask-image: url("http://localhost/Eclub/wp/wp-content/themes/Eclub/wpv_theme/assets/images/avatar-mask.svg");
+  mask: url("http://localhost/Eclub/wp/wp-content/themes/Eclub/wpv_theme/assets/images/avatar-mask.svg#mask");
 }
 .wpv-sermon-wrapper .right-part {
   padding: 0 20px;
@@ -9351,7 +9351,7 @@ table.tribe-events-tickets td.tickets_name {
   margin-top: 0;
 }
 .wpv-sermon-wrapper .title a {
-  color: #F37217;
+  color: #D14D42;
 }
 .wpv-sermon-wrapper .title a:hover {
   color: #3E4043;
@@ -9371,8 +9371,8 @@ table.tribe-events-tickets td.tickets_name {
 }
 .single-wpv_sermon .sermon-media-icons a:hover,
 .wpv-sermon-wrapper .right-part a:hover {
-  border: 1px solid #F37217;
-  color: #F37217;
+  border: 1px solid #D14D42;
+  color: #D14D42;
   transition: color .5s;
 }
 .single-wpv_sermon .sermon-media-icons[data-items="1"],
@@ -9503,12 +9503,12 @@ table.tribe-events-tickets td.tickets_name {
   color: #4D4E53 !important;
 }
 .services:hover .thumbnail a img {
-  background: #F37217;
-  border-color: #F37217;
+  background: #D14D42;
+  border-color: #D14D42;
 }
 .services:hover .thumbnail a:before,
 .services:hover .thumbnail a:after {
-  border-top-color: #F37217;
+  border-top-color: #D14D42;
 }
 .services.smallimage .services-inside {
   box-shadow: 0 0 0 transparent;
@@ -9535,7 +9535,7 @@ table.tribe-events-tickets td.tickets_name {
 }
 .services.smallimage .shrinking {
   position: relative;
-  background: #F37217;
+  background: #D14D42;
   text-align: center;
   height: 0;
   overflow: hidden;
@@ -9720,7 +9720,7 @@ table.vamtam-styled tfoot {
   margin-left: 10px;
 }
 .wpv-tabs > .ui-tabs-nav li.ui-state-default a {
-  color: #F7931E;
+  color: #D14D42;
 }
 .wpv-tabs > .ui-tabs-nav li.ui-state-hover,
 .wpv-tabs > .ui-tabs-nav li.ui-state-active,
@@ -9801,7 +9801,7 @@ body.layout-left-only .wpv-tabs.vertical .ui-tabs-nav {
   opacity: 1;
 }
 .wpv-tabs.vertical .ui-tabs-nav li a {
-  font: 300 12px/14px Open Sans;
+  font: 300 12px/14px Raleway;
   display: table;
   padding: 11px 0;
   min-height: 44px;
@@ -9853,7 +9853,7 @@ body.layout-left-only .wpv-tabs.vertical .ui-tabs-nav {
 .wpv-tabs.vertical .ui-tabs-nav li.inactive-block-title > h4,
 .wpv-tabs.vertical .ui-tabs-nav li.inactive-block-title > h5,
 .wpv-tabs.vertical .ui-tabs-nav li.inactive-block-title > h6 {
-  font: bold 40px/60px Open Sans;
+  font: bold 40px/60px Raleway;
 }
 .wpv-tabs.vertical .pane {
   -moz-box-sizing: border-box;
@@ -10065,8 +10065,8 @@ div.wpcf7 .wpcf7-form .wpcf7-submit:hover {
 .wpv-wysija-newsletter .widget_wysija_cont.shortcode_wysija .wysija-submit,
 #main .wpv-wysija-newsletter .widget_wysija_cont.shortcode_wysija .wysija-submit {
   background: none;
-  color: #F37217;
-  border: 2px solid #F37217;
+  color: #D14D42;
+  border: 2px solid #D14D42;
   margin-top: 0;
   padding: 10px 30px 10px 30px;
   font-size: 19px;
@@ -10203,7 +10203,7 @@ body.single-portfolio .related-portfolios .grid-1-1 {
 .portfolios .portfolio-item-wrapper .love-count-outer a {
   font-style: normal;
   font-size: 10px;
-  font-family: "Open Sans";
+  font-family: "Droid Sans";
   line-height: 43px;
   color: #EFEFEF;
   width: 45px;
@@ -10363,7 +10363,7 @@ body.full .related-portfolios:before {
   display: block;
   float: left;
   padding: .4em .6em;
-  color: #F7931E;
+  color: #D14D42;
   line-height: 1;
   margin: 0 .2em;
 }
@@ -10473,7 +10473,7 @@ article.type-portfolio .portfolio_image_wrapper > img {
   transition: color .3s ease;
 }
 .loop-wrapper .post-date .top-part {
-  font: normal 26px/30px Open Sans;
+  font: normal 26px/30px Raleway;
   color: #D4D4D4;
   line-height: 1;
   font-size: 45px;
@@ -10482,7 +10482,7 @@ article.type-portfolio .portfolio_image_wrapper > img {
   padding-bottom: 10px;
 }
 .loop-wrapper .post-date .bottom-part {
-  font: 300 12px/14px Open Sans;
+  font: 300 12px/14px Raleway;
   padding-top: 10px;
   line-height: 1;
 }
@@ -10498,7 +10498,7 @@ article.type-portfolio .portfolio_image_wrapper > img {
 .loop-wrapper .post-actions .love-count-outer a {
   font-style: normal;
   font-size: 11px;
-  font-family: "Open Sans";
+  font-family: "Droid Sans";
   line-height: 33px;
   color: #D4D4D4;
   display: block;
@@ -10540,7 +10540,7 @@ article.type-portfolio .portfolio_image_wrapper > img {
 }
 .loop-wrapper .post-actions .post-edit-link .icon {
   font-size: 33px;
-  color: rgba(243,114,23,0.7);
+  color: rgba(209,77,66,0.7);
   line-height: 1;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -10583,7 +10583,7 @@ article.type-portfolio .portfolio_image_wrapper > img {
 }
 .loop-wrapper .list-item:hover .post-date .top-part,
 .loop-wrapper .list-item:hover .post-date .bottom-part {
-  color: #F37217;
+  color: #D14D42;
 }
 .loop-wrapper header {
   position: relative;
@@ -10614,7 +10614,7 @@ article.type-portfolio .portfolio_image_wrapper > img {
 }
 .loop-wrapper .post-article .post-content-outer .post-meta div a {
   font: normal 11px/12px Droid Sans;
-  color: #F7931E;
+  color: #D14D42;
 }
 .loop-wrapper .post-article .post-content-outer .post-meta div a:hover {
   color: #4D4E53;
@@ -10653,7 +10653,7 @@ article.type-portfolio .portfolio_image_wrapper > img {
 }
 .loop-wrapper .post-article .post-content-outer .post-meta .comment-count a,
 .loop-wrapper .post-article .post-content-outer .post-meta .comment-count a span {
-  color: #F7931E;
+  color: #D14D42;
 }
 .loop-wrapper .post-article .post-content-outer .post-meta .comment-count a:hover,
 .loop-wrapper .post-article .post-content-outer .post-meta .comment-count a:hover span {
@@ -10666,11 +10666,11 @@ article.type-portfolio .portfolio_image_wrapper > img {
   float: right;
   border-right: none;
   border-left: 1px solid #EFEFEF;
-  color: #F7931E;
+  color: #D14D42;
 }
 .loop-wrapper .post-article .post-content-outer .post-meta .love-it-wrapper .loved span.icon {
   margin-right: 5px;
-  color: #F7931E;
+  color: #D14D42;
 }
 .loop-wrapper .post-article .post-content-outer .post-meta .love-it-wrapper .loved span.icon:hover {
   color: #4D4E53;
@@ -10690,7 +10690,7 @@ article.type-portfolio .portfolio_image_wrapper > img {
   width: 1px;
 }
 .loop-wrapper .post-article .post-content-outer .post-meta .love-it-wrapper span.love-count {
-  color: #F7931E;
+  color: #D14D42;
 }
 .loop-wrapper .post-article .post-content-outer .post-media .slider-shortcode-wrapper {
   margin-bottom: 0 !important;
@@ -10870,7 +10870,7 @@ html.touch .post-article .post-media .media-inner .thumbnail-overlay {
 .post-article .blog-buttons a .icon {
   margin: 0 8px 0 0;
   padding: 0;
-  color: #F37217;
+  color: #D14D42;
   font-size: 16px;
 }
 .post-article.fullimage-wrapper .standard-post-format .the-content .post-meta,
@@ -10955,7 +10955,7 @@ html.touch .post-article .post-media .media-inner .thumbnail-overlay {
 }
 .post-article .quote-post-format blockquote.large .quote-text,
 .post-article .quote-post-format blockquote.large .quote-text p {
-  font: normal 22px/26px Open Sans;
+  font: normal 22px/26px Raleway;
 }
 .post-article .quote-post-format .cite {
   float: left;
@@ -11223,8 +11223,8 @@ aside.right .widget > h4+form:after,
   width: 100%;
 }
 .widget_calendar #wp-calendar caption {
-  font: normal 18px/22px Open Sans;
-  color: #F7931E;
+  font: normal 18px/22px Raleway;
+  color: #D14D42;
   padding: 0 0 10px 0 !important;
 }
 .widget_calendar #wp-calendar thead {
@@ -11336,7 +11336,7 @@ aside .flickr_badge_image img {
 .wpv_icon_link .content {
   -webkit-transition: opacity .5s ease;
   transition: opacity .5s ease;
-  font-family: "PT Sans";
+  font-family: "Raleway";
   position: absolute;
   top: -9999999px;
   left: -9999999px;
@@ -11477,7 +11477,7 @@ aside .flickr_badge_image img {
   line-height: 22px;
 }
 .wpv_posts [data-single] .icon {
-  color: #F37217;
+  color: #D14D42;
 }
 .wpv_posts .ui-tabs-panel {
   background: transparent;
@@ -11769,10 +11769,10 @@ aside .social_wrap:after {
   color: #3E4043;
   background: #EFEFEF;
   border-color: #bec0c2;
-  font: bold italic 36px/30px Open Sans;
+  font: normal 12px/16px Droid Sans;
 }
 .tagcloud a:hover {
-  background: #F37217;
+  background: #D14D42;
   color: #ffffff !important;
   text-decoration: none;
 }
@@ -11829,20 +11829,20 @@ aside .social_wrap:after {
   height: 324px;
   width: auto;
   max-width: 812px;
-  background: url("http://localhost/wp/wp-content/themes/Eclub/wpv_theme/assets/images/404_bg.png") no-repeat bottom right;
+  background: url("http://localhost/Eclub/wp/wp-content/themes/Eclub/wpv_theme/assets/images/404_bg.png") no-repeat bottom right;
   color: #D4D4D4;
   text-align: left;
 }
 #header-404 .line-1 {
-  font: normal 70px/1 "Open Sans";
+  font: normal 70px/1 "Raleway";
   color: #9B9B9B;
 }
 #header-404 .line-2 {
-  font: normal 80px/1.1 "Open Sans";
-  color: #F37217;
+  font: normal 80px/1.1 "Raleway";
+  color: #D14D42;
 }
 #header-404 .line-3 {
-  font: normal 20px/1 "Open Sans";
+  font: normal 20px/1 "Raleway";
   color: #9B9B9B;
 }
 #header-404 .line-4 {
@@ -11866,11 +11866,11 @@ footer.main-footer p,
 footer.main-footer a,
 footer.main-footer th,
 footer.main-footer td {
-  font: normal 14px/20px Open Sans;
+  font: normal 14px/20px Raleway;
   color: #898989;
 }
 footer.main-footer a {
-  color: #F7931E;
+  color: #898989;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
@@ -11893,7 +11893,7 @@ footer.main-footer .widget.widget_nav_menu .menu li.last-child {
   border-bottom: none;
 }
 footer.main-footer .widget.widget_nav_menu .menu li a {
-  color: #F7931E;
+  color: #898989;
 }
 footer.main-footer .widget.widget_nav_menu .menu li a:visited {
   color: #898989;
@@ -11917,7 +11917,7 @@ footer.main-footer .widget .widget-title {
   text-align: left;
   padding: 0;
   margin: 0 0 30px;
-  font: 300 24px/23px PT Sans !important;
+  font: 300 24px/23px Raleway !important;
   color: #ffffff !important;
 }
 footer.main-footer .widget .widget-title > .icon {
@@ -12025,7 +12025,7 @@ footer.main-footer .widget .widget-title > .icon {
   background-repeat: repeat-x;
   background-position: center top;
   background-attachment: scroll;
-  background-color: #333333;
+  background-color: #D14D42;
   -webkit-background-size: auto;
   -moz-background-size: auto;
   background-size: auto;
@@ -12043,7 +12043,7 @@ footer.main-footer .widget .widget-title > .icon {
 }
 .copyrights,
 .copyrights * {
-  font: normal 14px/14px Open Sans;
+  font: normal 14px/14px Raleway;
   color: #ffffff;
 }
 #sub-footer-menu ul {
@@ -12053,11 +12053,11 @@ footer.main-footer .widget .widget-title > .icon {
   list-style: none;
   float: left;
   padding: 0 5px;
-  border-left: 1px solid #595959;
+  border-left: 1px solid #e08780;
 }
 #sub-footer-menu li a {
-  color: #F7931E;
-  font: normal 14px/14px Open Sans;
+  color: #898989;
+  font: normal 14px/14px Raleway;
 }
 #sub-footer-menu li:first-child {
   padding-left: 0;
@@ -12125,7 +12125,7 @@ footer.main-footer .widget .widget-title > .icon {
   opacity: 1;
 }
 body.admin-bar #style-switcher {
-  top: 187px;
+  top: 178px;
 }
 #ss-teaser .close {
   content: "\e255";
@@ -12289,7 +12289,7 @@ body.fast-slider .fast-slider-navbar .limit-wrapper .fast-slider-description .co
   color: #EFEFEF;
 }
 body.fast-slider .fast-slider-navbar .limit-wrapper .fast-slider-description a.toggle-description {
-  font: normal 13px/20px Open Sans;
+  font: normal 13px/20px Droid Sans;
   clear: both;
   color: #EFEFEF;
   display: block;
@@ -12339,7 +12339,7 @@ body.fast-slider .fast-slider-next:hover {
 body.fast-slider .fast-slider-view-all:hover b,
 body.fast-slider .fast-slider-prev:hover b,
 body.fast-slider .fast-slider-next:hover b {
-  color: #F37217 !important;
+  color: #D14D42 !important;
 }
 body.fast-slider .fast-slider-gall-next,
 body.fast-slider .fast-slider-gall-prev {
@@ -12508,7 +12508,7 @@ img.alignnone {
 .entry-caption,
 .gallery-caption {
   margin-top: 0;
-  font: italic 14px/16px Open Sans;
+  font: italic 13px/18px Droid Sans;
   color: #898989;
 }
 .wp-smiley,
@@ -12628,7 +12628,7 @@ cite {
     padding: 20px 20px 20px 10px;
     background: #ffffff;
     box-shadow: 0 1px 1px #e3e3e3;
-    color: #F7931E;
+    color: #D14D42;
     text-align: center;
     font-size: 16px;
   }
@@ -12678,7 +12678,7 @@ cite {
     border-bottom: 1px solid #D4D4D4;
     margin: 0 -15px 15px -15px;
     padding: 0 15px 15px 15px;
-    color: #F37217;
+    color: #D14D42;
     font-weight: bold;
   }
   .wpv-tribe-single-media.no-image + div .wpv-tribe-events-meta {
@@ -12742,11 +12742,11 @@ cite {
   }
   .move-into-slider:before {
     left: -75px;
-    content: url("http://localhost/wp/wp-content/themes/Eclub/wpv_theme/assets/images/ornament2g-left.svg");
+    content: url("http://localhost/Eclub/wp/wp-content/themes/Eclub/wpv_theme/assets/images/ornament2g-left.svg");
   }
   .move-into-slider:after {
     right: -75px;
-    content: url("http://localhost/wp/wp-content/themes/Eclub/wpv_theme/assets/images/ornament2g-right.svg");
+    content: url("http://localhost/Eclub/wp/wp-content/themes/Eclub/wpv_theme/assets/images/ornament2g-right.svg");
   }
 }
 @media (min-width: 959px) and (max-width: 1280px) {
@@ -13095,7 +13095,7 @@ cite {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font: normal 13px/20px Open Sans;
+    font: normal 13px/20px Droid Sans;
     font-weight: bold;
   }
   .csstransforms.js .responsive-layout .mp-back::after {
@@ -13507,7 +13507,7 @@ cite {
     text-align: left;
   }
   .responsive-layout #header-breadcrumbs a {
-    color: #F7931E;
+    color: #D14D42;
   }
   .responsive-layout #header-breadcrumbs:after {
     position: absolute;
@@ -13761,7 +13761,7 @@ cite {
   .responsive-layout .tribe-events-sub-nav li a:hover {
     padding: 0;
     background: none;
-    color: #F37217;
+    color: #D14D42;
     white-space: nowrap;
   }
   .responsive-layout .tribe-events-calendar thead th {
@@ -13778,17 +13778,17 @@ cite {
   }
   .responsive-layout .tribe-events-calendar td.mobile-active,
   .responsive-layout .tribe-events-calendar td.mobile-active:hover {
-    background: #F37217;
+    background: #D14D42;
   }
   .responsive-layout .tribe-events-calendar td.mobile-active div[id*="tribe-events-daynum-"],
   .responsive-layout .tribe-events-calendar td.mobile-active div[id*="tribe-events-daynum-"] a {
-    background: #F37217;
+    background: #D14D42;
   }
   .responsive-layout #tribe-events-content {
     overflow: visible;
   }
   .responsive-layout #tribe-events-content .tribe-events-calendar .mobile-active:hover {
-    background-color: #F37217;
+    background-color: #D14D42;
   }
   .responsive-layout.single-tribe_events aside.left {
     padding-top: 60px;
