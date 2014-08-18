@@ -16,3 +16,24 @@ Tags: blue, brown, green, pink, white, light, one-column, two-columns, three-col
 border-radius: 50px;
 
 }
+
+.mission{
+	width:50%;
+
+}
+
+.c2abutton{
+width:40px; 
+margin-left: 0px;
+margin-top: 0px; 
+transform-origin: 50% 50% 0px; 
+transform: translate3d(0px, 0px, 0px);
+opacity: 1; visibility: visible; display: block;
+left: 516px; top: 451px;" data-ls="offsetxin:0;durationin:2500;delayin:3500;">
+   		
+
+}
+
+.clearfix{
+	background-color:#431766;
+}

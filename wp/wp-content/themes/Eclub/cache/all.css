@@ -5381,7 +5381,7 @@ html.touch body.fixed-layout.mfp-zoom-out-cur .fixed-header-box {
 }
 .fixed-header-box .logo-wrapper .logo.text-logo,
 .fixed-header-box .logo-wrapper .logo.text-logo:hover {
-  color: #D14D42;
+  color: #F37217;
 }
 .ie8 .fixed-header-box .logo-wrapper .logo img,
 .ie9 .fixed-header-box .logo-wrapper .logo img {
@@ -5472,7 +5472,7 @@ header.main-header button.header-search {
   padding-right: 10px;
 }
 body.sticky-header-type-over.sticky-header.wpv-not-scrolled .layout-logo-menu header.main-header button.header-search {
-  color: #ffffff;
+  color: #898989;
 }
 header.main-header button.header-search:active {
   -webkit-transform: translate(0,3px);
@@ -6973,7 +6973,7 @@ article > .page-content > section.portfolios > .wp-pagenavi {
 }
 body.sticky-header-type-over.sticky-header.wpv-not-scrolled #main-menu .menu > .menu-item:not(.current-menu-parent):not(.current-menu-item):not(.current-menu-ancestor):not(.current-menu-ancestor):not(:hover) > a,
 body.sticky-header-type-over.sticky-header.wpv-not-scrolled #main-menu .menu > .menu-item:not(.current-menu-parent):not(.current-menu-item):not(.current-menu-ancestor):not(.current-menu-ancestor):not(:hover) > a:visited {
-  color: #ffffff;
+  color: #898989;
 }
 #main-menu .menu > .menu-item {
   padding: 9px 5px 5px 0;
@@ -6996,7 +6996,7 @@ body.sticky-header-type-over.sticky-header.wpv-not-scrolled #main-menu .menu > .
 #main-menu .menu > .menu-item.current-menu-ancestor,
 #main-menu .menu > .menu-item.current-menu-ancestor,
 #main-menu .menu > .menu-item:hover {
-  border-bottom-color: #D14D42;
+  border-bottom-color: #F37217;
 }
 #main-menu .menu > .menu-item.current-menu-parent > a,
 #main-menu .menu > .menu-item.current-menu-item > a,
@@ -7005,8 +7005,8 @@ body.sticky-header-type-over.sticky-header.wpv-not-scrolled #main-menu .menu > .
 #main-menu .menu > .menu-item:hover > a {
   padding-top: .3em;
   padding-bottom: .3em;
-  background-color: transparent;
-  color: #D14D42;
+  background-color: #ffffff;
+  color: #F37217;
   text-decoration: none;
 }
 #main-menu .menu > .menu-item:hover > .sub-menu-wrapper {
@@ -7051,7 +7051,7 @@ body.sticky-header-type-over.sticky-header.wpv-not-scrolled #main-menu .menu > .
 #main-menu .menu > .menu-item > .sub-menu-wrapper > .sub-menu .menu-item.current-menu-ancestor > a,
 #main-menu .menu > .menu-item > .sub-menu-wrapper > .sub-menu .menu-item:hover > a {
   text-decoration: none;
-  color: #D14D42;
+  color: #F37217;
 }
 #main-menu .menu > .menu-item > .sub-menu-wrapper > .sub-menu .menu-item .sub-menu {
   left: 100%;
@@ -7092,7 +7092,7 @@ body.sticky-header-type-over.sticky-header.wpv-not-scrolled #main-menu .menu > .
 #main-menu .menu > .menu-item > .sub-menu-wrapper > .sub-menu .menu-item .sub-menu .menu-item.current-menu-ancestor > a,
 #main-menu .menu > .menu-item > .sub-menu-wrapper > .sub-menu .menu-item .sub-menu .menu-item:hover > a {
   text-decoration: none;
-  color: #D14D42;
+  color: #F37217;
 }
 #main-menu .menu > .menu-item > .sub-menu-wrapper > .sub-menu .menu-item .sub-menu .menu-item:first-child {
   border-radius: 5px 5px 0 0;
@@ -7149,7 +7149,7 @@ header.main-header.layout-standard .top-nav > .top-nav-inner > .row {
   height: 17px;
 }
 .top-nav a {
-  color: #D14D42;
+  color: #F37217;
 }
 .top-nav a:hover {
   color: #ffffff;
@@ -7248,14 +7248,14 @@ header.main-header.layout-standard .top-nav > .top-nav-inner > .row {
 .top-nav .menu li .sub-menu .menu-item.current-menu-ancestor > a,
 .top-nav .menu li .sub-menu .menu-item:hover > a {
   text-decoration: none;
-  color: #D14D42;
+  color: #F37217;
 }
 #top-nav-social > a {
   display: inline-block;
   margin: 0 1px;
   width: 1.65em;
   height: 1.65em;
-  border: 2px solid #D14D42;
+  border: 2px solid #F37217;
   border-radius: 50%;
   text-align: center;
 }
@@ -13076,8 +13076,8 @@ cite {
     transform: translate3d(-100%,0,0);
   }
   .csstransforms.js .responsive-layout .mp-menu ul li a:hover {
-    background: transparent;
-    color: #D14D42;
+    background: #ffffff;
+    color: #F37217;
   }
   .csstransforms.js .responsive-layout .mp-menu .mp-level.mp-level-overlay > ul > li > a,
   .csstransforms.js .responsive-layout .mp-level.mp-level-overlay > ul > li:first-child > a {

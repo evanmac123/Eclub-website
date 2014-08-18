@@ -25,6 +25,10 @@ $event_id = get_the_ID();
 		<!-- Notices -->
 		<?php tribe_events_the_notices() ?>
 
+		<!--Title of the Post-->
+		<!--THis is how you get the title-->
+		<h2><?php echo get_the_title(); ?></h2>
+
 		<!-- Event content -->
 		<?php do_action( 'tribe_events_single_event_before_the_content' ) ?>
 		<div class="tribe-events-single-event-description tribe-events-content entry-content description">

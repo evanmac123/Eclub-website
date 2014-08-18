@@ -20,7 +20,7 @@ return array(
 			'options' => array(
 				'single'       => __('Single event per line', 'church-event'),
 				'single-large' => __('Single event per line (large)', 'church-event'),
-				'classic'      => __('Classic', 'church-event'),
+				'PICK ME'      => __('Classic', 'church-event'),
 				'multiple'     => __('Multiple events per line ', 'church-event'),
 			),
 			'field_filter' => 'fbl',

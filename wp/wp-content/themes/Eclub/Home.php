@@ -11,7 +11,6 @@ if(!wpv_is_reduced_response()):
 endif;
 
 ?>
-
 <?php if ( have_posts() ) : the_post(); ?>
 
 <?php if(!wpv_is_reduced_response()): ?>
@@ -20,14 +19,31 @@ endif;
 		<?php WpvTemplates::left_sidebar() ?>
 
 		<article id="post-<?php the_ID(); ?>" <?php post_class(WpvTemplates::get_layout()); ?>>
-			
-//Hello! Remember to remove me!
-//Start of content under slider
+<!--Import slider to the home page-->			
+
+
+
+<!--Start of content under slider-->
 			<div class="page-content">
 
-	<div id="most_recent_posts">
-    THIS IS CONTENT
-    </div>
+	
+<div class="wpv-grid grid-1-2  wpv-first-level first unextended">
+	<h1>We are Entreprenuers.</h1>
+	<h4 class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tristique est tortor, quis iaculis nibh commodo a. Duis condimentum libero quis molestie elementum. Cras dui quam, venenatis tristique libero sit amet, convallis aliquet turpis. Donec a facilisis arcu. Nullam fringilla libero pellentesque venenatis malesuada.
+	Link to About
+	</h4>
+    <a href="aboutpage" target="_self" class="ls-l c2abutton"> 
+   		 <p class="button ls-preloaded" style="white-space: nowrap; width: auto; height: auto; font-size: 20px; line-height: 28px; padding: 10px 20px; border-width: 0px;">
+    		Learn more
+    	</p>
+	</a>
+	<button>
+</div>
+
+
+
+<?php// echo tribe_community_events_form_title();  ?>
+
 				<?php
 					if(WpvFancyPortfolio::has('page')):
 						$fancy_portfolio_resizing = get_post_meta($post->ID, 'fancy-portfolio-resizing', true);

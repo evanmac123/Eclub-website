@@ -4,13 +4,36 @@
 <?php foreach($events as $event): ?>
 	<div class="classic-event-wrapper">
 		<div class="row">
-			<div class="grid-1-3">
+
+
+
+			<h5 style="color:#000; font-weight:bold;"> Next weekly Speaker: </h5>
+
+
+
+			<div class="grid-2-3">
 				<?php if ( ! empty( $lead_text ) ): ?>
 					<h4 class="lead-wrapper"><?php echo wpv_shortcode_icon( array( 'name' => 'calendar2' ) ) // xss ok ?> <span class="lead"><?php echo $lead_text //xss ok ?></span></h4>
 				<?php endif ?>
+				
 				<h3 class="event-title"><a href="<?php tribe_event_link( $event ) ?>" title="<?php esc_attr_e( 'Read More', 'church-event' ) ?>"><?php echo $event->post_title // xss ok ?></a></h3>
+				
+				
+
+				<p><?php echo $thumbnail ;?></p>
+					
+				<p> <?php echo tribe_meta_event_cats(); ?></p>
+
+
 			</div>
-			<div class="grid-2-3">
+			<div class="grid-1-3">
+					<h3><?php echo esc_attr( date( tribe_get_start_date( $event, false, 'Y-m-d' ) ) ) 
+								
+					 ?><h3> 
+
+
+
+			<!--
 				<span class="wpv-countdown single-event style-<?php echo esc_attr( $style ) ?> layout-<?php echo esc_attr( $layout ) ?>" data-until="<?php echo esc_attr( strtotime( tribe_get_start_date( $event, false, 'Y-m-d H:i:s T' ) ) ) ?>" data-done="<?php echo esc_attr( $ongoing ) ?>">
 					<span class="wpvc-days"><span class="value">&ndash;</span> <span class="word"><?php _e( 'Days', 'church-event' ) ?></span></span>
 					<span class="wpvc-hours"><span class="value">&ndash;</span> <span class="word"><?php _e( 'Hours', 'church-event' ) ?></span></span>
@@ -18,6 +41,8 @@
 					<span class="wpvc-minutes"><span class="value">&ndash;</span> <span class="word"><?php _e( 'Minutes', 'church-event' ) ?></span></span>
 					<span class="wpvc-seconds"><span class="value">&ndash;</span> <span class="word"><?php _e( 'Seconds', 'church-event' ) ?></span></span>
 				</span>
+
+			-->
 				<div class="split"></div>
 				<a href="<?php tribe_event_link( $event ) ?>" title="<?php esc_attr( $read_more_text ) ?>" class="vamtam-button button accent1 hover-accent1"><span class="btext"><?php echo $read_more_text // xss ok ?></span></a>
 				<?php if ( ! empty( $view_all_text ) && ! empty( $view_all_link ) ): ?>

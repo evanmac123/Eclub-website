@@ -5,6 +5,14 @@ class WPV_Tribe_Events {
 		add_shortcode('wpv_tribe_events', array(__CLASS__, 'shortcode'));
 	}
 
+
+		
+		
+	
+	
+	
+
+
 	public static function shortcode($atts, $content = null, $code) {
 		extract(shortcode_atts(array(
 			'layout' => 'single',
@@ -16,6 +24,7 @@ class WPV_Tribe_Events {
 			'view_all_link' => '',
 			'read_more_text' => '',
 			'cat' => '',
+			
 		), $atts));
 
 		if ( ! function_exists( 'tribe_get_events' ) ) {
@@ -47,10 +56,24 @@ class WPV_Tribe_Events {
 
 		$layout_file = explode('-', $layout);
 
-		include locate_template("templates/shortcodes/events/{$layout_file[0]}.php");
+		$featured_image = tribe_event_featured_image($query);
 
+		$thumbnail= get_the_post_thumbnail( get_the_ID(), 'thumbnail' );
+
+		include locate_template("templates/shortcodes/events/{$layout_file[0]}.php");
+		
 		return ob_get_clean();
+
+		
 	}
+
+	
+
+
+
+
+
+
 }
 
 new WPV_Tribe_Events;

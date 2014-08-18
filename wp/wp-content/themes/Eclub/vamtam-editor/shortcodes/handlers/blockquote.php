@@ -117,9 +117,9 @@ class WPV_Blockquote {
 			$thumbnail .= '</div>';
 		}
 
-		$content = '<div class="quote-content">'.$content.'</div>';
+		$content = '<div class="quote-content quote-type">'.$content.'</div>';
 
-		return "<blockquote class='clearfix small simple'>$thumbnail<div class='quote-text'>".do_shortcode($content)."</div></blockquote>";
+		return "<blockquote class='clearfix small simple'>$thumbnail<h4 class='quote-content'>".do_shortcode($content)."</h4></blockquote>";
 	}
 };
 
