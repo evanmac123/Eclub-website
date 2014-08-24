@@ -1,6 +1,6 @@
 <?php
 
-function wpcf7_autop( $pee, $br = 1 ) {
+function wpcf7_autop( $pee  ) {
 	if ( trim( $pee ) === '' ) {
 		return '';
 	}

@@ -11867,15 +11867,15 @@ footer.main-footer a,
 footer.main-footer th,
 footer.main-footer td {
   font: normal 14px/20px Raleway;
-  color: #898989;
+  color: #ffffff;
 }
 footer.main-footer a {
-  color: #898989;
+  color: #F37217;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 footer.main-footer a:visited {
-  color: #898989;
+  color: #431766;
 }
 footer.main-footer a:hover {
   color: #ffffff;
@@ -11893,10 +11893,10 @@ footer.main-footer .widget.widget_nav_menu .menu li.last-child {
   border-bottom: none;
 }
 footer.main-footer .widget.widget_nav_menu .menu li a {
-  color: #898989;
+  color: #F37217;
 }
 footer.main-footer .widget.widget_nav_menu .menu li a:visited {
-  color: #898989;
+  color: #431766;
 }
 footer.main-footer .widget.widget_nav_menu .menu li a:hover {
   color: #ffffff;
@@ -11906,7 +11906,7 @@ footer.main-footer .widget.widget_nav_menu .menu li.current_page_item {
   position: relative;
 }
 footer.main-footer .widget.widget_nav_menu .menu li.current_page_item a {
-  color: #898989;
+  color: #431766;
   padding: 0;
 }
 footer.main-footer .widget.widget_nav_menu .menu li.current_page_item:before {
@@ -12025,7 +12025,7 @@ footer.main-footer .widget .widget-title > .icon {
   background-repeat: repeat-x;
   background-position: center top;
   background-attachment: scroll;
-  background-color: #D14D42;
+  background-color: #333333;
   -webkit-background-size: auto;
   -moz-background-size: auto;
   background-size: auto;
@@ -12053,10 +12053,10 @@ footer.main-footer .widget .widget-title > .icon {
   list-style: none;
   float: left;
   padding: 0 5px;
-  border-left: 1px solid #e08780;
+  border-left: 1px solid #595959;
 }
 #sub-footer-menu li a {
-  color: #898989;
+  color: #F37217;
   font: normal 14px/14px Raleway;
 }
 #sub-footer-menu li:first-child {

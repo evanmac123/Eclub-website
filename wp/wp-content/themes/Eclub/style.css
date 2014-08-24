@@ -37,3 +37,6 @@ left: 516px; top: 451px;" data-ls="offsetxin:0;durationin:2500;delayin:3500;">
 .clearfix{
 	background-color:#431766;
 }
+
+
+.wpcf7-form-control-wrap br { display: none; }

@@ -27,18 +27,7 @@ endif;
 			<div class="page-content">
 
 	
-<div class="wpv-grid grid-1-2  wpv-first-level first unextended">
-	<h1>We are Entreprenuers.</h1>
-	<h4 class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tristique est tortor, quis iaculis nibh commodo a. Duis condimentum libero quis molestie elementum. Cras dui quam, venenatis tristique libero sit amet, convallis aliquet turpis. Donec a facilisis arcu. Nullam fringilla libero pellentesque venenatis malesuada.
-	Link to About
-	</h4>
-    <a href="aboutpage" target="_self" class="ls-l c2abutton"> 
-   		 <p class="button ls-preloaded" style="white-space: nowrap; width: auto; height: auto; font-size: 20px; line-height: 28px; padding: 10px 20px; border-width: 0px;">
-    		Learn more
-    	</p>
-	</a>
-	<button>
-</div>
+
 
 
 
@@ -67,7 +56,7 @@ endif;
 							));
 							wp_enqueue_script('vamtam-portfolioslider');
 					endif ?>
-//This is all the content on the page coming VAMTAM
+
 				<?php the_content(); ?><div> after this</div>
 
 

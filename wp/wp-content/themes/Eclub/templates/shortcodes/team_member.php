@@ -3,9 +3,9 @@
 	<?php if(!empty($picture)): ?>
 	<div class="thumbnail">
 		<?php if(!empty($url)):?>
-			<a href="<?php echo $url ?>" title="<?php echo $name?>">
+			<a href="<?php echo $url ?>" title="<?php echo $name?>" class="">
 		<?php endif ?>
-			<?php wpv_lazy_load($picture, $name)?>
+			<?php wpv_lazy_load($picture, $name,class="circle-img")?>
 		<?php if(!empty($url)):?>
 			</a>
 		<?php endif ?>
