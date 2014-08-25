@@ -37,10 +37,11 @@ return 	array(
 			'type' => 'text'
 		),
 		array(
-			'name' => __('Phone', 'church-event'),
+			'name' => __('Description', 'church-event'),
 			'id' => 'phone',
 			'default' => '',
-			'type' => 'text'
+			'type' => 'editor',
+			'holder' => 'textarea'
 		),
 		array(
 			'name' => __('Picture url', 'church-event'),
